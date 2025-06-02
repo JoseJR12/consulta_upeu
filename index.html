@@ -38,7 +38,6 @@
             divResultado.innerHTML = '';
 
             if (resultado) {
-                // Ruta de la imagen de referencia
                 const imagenRuta = 'images/referencia.jpg'; // Cambia esto a la ruta de tu imagen de referencia
 
                 divResultado.innerHTML = `
@@ -48,6 +47,10 @@
                         <p><strong>Carrera:</strong> ${resultado[2]}</p>
                         <p><strong>Lugar:</strong> ${resultado[3]}</p>
                         <p><strong>Encargado:</strong> ${resultado[4]}</p>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p style="width: 150px;"><strong>Fecha:</strong> ${resultado[5]}</p>
+                            <p style="width: 100px;"><strong>Hora:</strong> ${resultado[6]}</p>
+                        </div>
                         <p class="text-red-500 text-lg font-bold mt-4 text-center">IMAGEN DE REFERENCIA</p>
                         <img src="${imagenRuta}" alt="Imagen de referencia" class="mt-2 w-full h-auto" />
                     </div>
