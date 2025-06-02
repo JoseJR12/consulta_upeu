@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Exámenes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="bg-white shadow-md rounded-lg p-6 w-full max-w-md">
+            <!-- Logo de la empresa -->
+            <img src="images/logo.png" alt="Logo de la Empresa" class="w-full h-auto mb-5" />
+            <h1 class="text-3xl font-bold text-center mb-5">Consulta de Exámenes</h1>
+            <div class="mb-4">
+                <input type="text" id="dni" class="border border-gray-300 p-2 w-full rounded" placeholder="Introduce tu DNI" />
+            </div>
+            <button class="bg-blue-500 text-white p-2 rounded w-full" onclick="consultar()">Consultar</button>
+            
+            <div id="resultado" class="mt-5"></div>
+        </div>
+    </div>
+
+    <script>
+        async function cargarDatos() {
+            const response = await fetch('examenes.csv');
+            const data = await response.text();
+            const rows = data.split('\n').map(line => line.split(';'));
+            return rows;
+        }
+
+        async function consultar() {
+            const dni = document.getElementById('dni').value.trim();
+            const datos = await cargarDatos();
+            const resultado = datos.find(row => row[1] === dni);
+
+            const divResultado = document.getElementById('resultado');
+            divResultado.innerHTML = '';
+
+            if (resultado) {
+                const imagenRuta = 'images/referencia.jpg'; // Cambia esto a la ruta de tu imagen de referencia
+
+                divResultado.innerHTML = `
+                    <div class="bg-white shadow-md rounded-lg p-5">
+                        <h2 class="text-xl font-semibold mb-2">Resultados para: ${resultado[0]}</h2>
+                        <p><strong>DNI:</strong> ${resultado[1]}</p>
+                        <p><strong>Carrera:</strong> ${resultado[2]}</p>
+                        <p><strong>Lugar:</strong> ${resultado[3]}</p>
+                        <p><strong>Encargado:</strong> ${resultado[4]}</p>
+                        <div style="display: flex; justify-content: space-between;">
+                            <p style="width: 150px;"><strong>Fecha:</strong> ${resultado[5]}</p>
+                            <p style="width: 100px;"><strong>Hora:</strong> ${resultado[6]}</p>
+                        </div>
+                        <p class="text-red-500 text-lg font-bold mt-4 text-center">IMAGEN DE REFERENCIA</p>
+                        <img src="${imagenRuta}" alt="Imagen de referencia" class="mt-2 w-full h-auto" />
+                    </div>
+                `;
+            } else {
+                divResultado.innerHTML = '<div class="bg-red-500 text-white p-3 rounded">No se encontró ningún registro con ese DNI.</div>';
+            }
+        }
+    </script>
+</body>
+</html>
