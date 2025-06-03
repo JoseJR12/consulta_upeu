@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulta de Citas Psicológicas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="libs/papaparse.min.js"></script>
+  <script src="js/citas.js" defer></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex items-center justify-center px-4">
+  <div class="max-w-xl w-full text-center">
+    <h1 class="text-3xl font-bold mb-6 text-indigo-400">Consulta de Citas Psicológicas</h1>
+    <input
+      type="text"
+      id="dniInput"
+      placeholder="Ingrese su DNI"
+      class="w-full px-4 py-2 rounded-xl text-black mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+    />
+    <button
+      onclick="buscarCita()"
+      class="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-2 rounded-xl transition"
+    >
+      Buscar
+    </button>
+    <div id="resultado" class="mt-6 text-left"></div>
+  </div>
+</body>
+</html>
