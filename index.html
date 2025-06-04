@@ -4,28 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Consultas</title>
-  <link rel="stylesheet" href="output.css" /> 
+  <link rel="stylesheet" href="output.css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
 </head>
 <body class="bg-gray-900 text-white min-h-screen flex items-center justify-center">
-  <div class="flex flex-col items-center px-4 w-full max-w-5xl text-center">
-    
+  <div class="flex flex-col items-center px-6 w-full max-w-4xl text-center">
+
     <!-- Logo centrado -->
-    <img src="img/logo.png" alt="Logo de la Empresa" class="w-40 h-auto mb-6 mx-auto" />
-    
+    <img src="img/logo.png" alt="Logo de la Empresa" class="w-36 md:w-40 h-auto mb-8" />
+
     <!-- Título -->
-    <h1 class="text-3xl font-bold mb-10">Consultas Disponibles Admision</h1>
-    
+    <h1 class="text-4xl font-bold mb-12 tracking-tight">Consultas Disponibles de Admisión</h1>
+
     <!-- Botones -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
-      <a href="examenes.html" class="bg-gray-800 hover:bg-gray-700 p-8 rounded-2xl shadow-xl transition duration-300">
+      <a href="examenes.html" class="bg-gray-800 hover:bg-gray-700 hover:scale-105 transform transition-all duration-300 p-8 rounded-2xl shadow-lg">
         <h2 class="text-xl font-semibold">Fecha de Examen</h2>
       </a>
-      <a href="citas.html" class="bg-gray-800 hover:bg-gray-700 p-8 rounded-2xl shadow-xl transition duration-300">
-        <h2 class="text-xl font-semibold">Consulta tu entrevista</h2>
+      <a href="citas.html" class="bg-gray-800 hover:bg-gray-700 hover:scale-105 transform transition-all duration-300 p-8 rounded-2xl shadow-lg">
+        <h2 class="text-xl font-semibold">Consulta tu Entrevista</h2>
       </a>
     </div>
-    
+
   </div>
 </body>
 </html>
