@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Consulta tu entrevista</title>
+  <title>Fecha de Examen</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="libs/papaparse.min.js"></script>
-  <script src="js/citas.js" defer></script>
+  <script src="js/examenes.js" defer></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
     body {
@@ -28,7 +28,7 @@
     </div>
 
     <!-- Título -->
-    <h1 class="text-3xl font-bold mb-6 text-indigo-400">Consulta tu Entrevista</h1>
+    <h1 class="text-3xl font-bold mb-6 text-indigo-400">Consulta de Fecha de Examen</h1>
 
     <!-- Campo de entrada DNI -->
     <input
@@ -40,7 +40,7 @@
 
     <!-- Botón de búsqueda -->
     <button
-      onclick="buscarCita()"
+      onclick="buscarExamen()"
       class="w-full bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-xl transition-all duration-300 font-semibold"
     >
       Buscar
@@ -48,6 +48,7 @@
 
     <!-- Resultado -->
     <div id="resultado" class="mt-6 text-left text-sm"></div>
+
   </div>
 </body>
 </html>
