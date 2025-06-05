@@ -1,10 +1,529 @@
-nombre;dni;carrera;edificio;fecha;hora;encargado
-Jos� Ra�l Amanqui;71540313;Ing. Sistemas;Aulas Tematicas;12/09/2000;00:00;Lic. Jouse
-Untitled Spreadsheet;0;Ing. Sistemas;Cat;13/09/2000;13:00;Lic. Kateryn
-Mamani Caceres Braulio Caleb;1;Ing. Sistemas;Pabellon a;14/09/2000;14:00;Lic. Aferez
-Pucahuaranga Aguirre Emi Zulma;2;Ing. Sistemas;Pabellon b;15/09/2000;15:00;Lic. Jouse
-Segui Garcia Alaisa;3;Ing. Sistemas;Aulas Tematicas;16/09/2000;16:00;Lic. Kateryn
-Blanco Gomez Juliette Alejandra;4;Ing. Sistemas;Cat;17/09/2000;17:00;Lic. Aferez
-Villarreal Trillo Shaant Kate;5;Ing. Sistemas;Pabellon a;18/09/2000;18:00;Lic. Jouse
-Sanchez Vilcapoma Sofia Salome;6;Ing. Sistemas;Pabellon b;19/09/2000;19:00;Lic. Kateryn
-Quispe Romero Amira Mikal;7;Ing. Sistemas;Lab 08;20/09/2000;20:00;Lic. Aferez
+﻿nombre;dni;carrera;edificio;fecha;hora;encargado
+José Raúl Amanqui;1;Ing. Sistemas;Pabellon A;12/09/2025;14:00;lic. Jose
+Cuno Vilca Nhick Jhonnir;73807517;Psicología;Pabellon D;13/09/2025;15:00;lic. Pedro
+Apaza Mamani Jenie Abigail;75884732;Enfermeria;Pabellon G;14/09/2025;16:00;lic. Jose
+Mamani Cosi Yeferson Teves;75522992;Enfermeria;Pabellon H;15/09/2025;17:00;lic. Pedro
+Motte Urajahua Rohanguiel Edison;60228819;Psicología;Pabellon I;16/09/2025;18:00;lic. Jose
+Añari Ticona Telesforo Jesus;76161950;Enfermeria;Pabellon J;17/09/2025;19:00;lic. Pedro
+PILA BASQUEZ YOFORSAY EDER;70809646;Enfermeria;Pabellon A;18/09/2025;20:00;lic. Jose
+MAMANI CARRIZALES FLORCITA;77342066;Enfermeria;Pabellon C;19/09/2025;21:00;lic. Pedro
+Luque Condori Yamilet Milagros;75193262;Psicología;Pabellon B;20/09/2025;20:00;lic. Jose
+AQUINO MAMANI YAKI MADELEIN;75797824;Psicología;Pabellon A;21/09/2025;14:00;lic. Pedro
+CAYRA JOVE NELSON WILFREDO;72884471;Psicología;Pabellon D;22/09/2025;15:00;lic. Jose
+VELASQUEZ COLCA BEATRIZ;60069064;Enfermeria;Pabellon G;23/09/2025;16:00;lic. Pedro
+Espetia Nina Saray;74705707;Nutrición;Pabellon H;24/09/2025;17:00;lic. Jose
+QUISPE CONDORI MILAGROS MADELEYNE;61193025;Enfermeria;Pabellon I;25/09/2025;18:00;lic. Pedro
+VIZA BELLIDO ANYELI YAMILETH;61001261;Enfermeria;Pabellon J;26/09/2025;19:00;lic. Jose
+CHURA GALDOS RODRIGO ELOY;61320652;Enfermeria;Pabellon A;27/09/2025;20:00;lic. Pedro
+PAUCAR FLORES YHOSELIN;60850639;Enfermeria;Pabellon C;28/09/2025;21:00;lic. Jose
+DE LA TORRE LATORRE KIARA ROSA;73393999;Psicología;Pabellon B;29/09/2025;20:00;lic. Pedro
+TIPO JACHO JHANDDY ANAY;60065619;Enfermeria;Pabellon A;30/09/2025;14:00;lic. Jose
+Amanqui Ramos Luz Milagros;77538099;Enfermeria;Pabellon D;12/09/2025;15:00;lic. Pedro
+PINO PACCORI JHOANA DEL PILAR;61000985;Enfermeria;Pabellon G;13/09/2025;16:00;lic. Jose
+CHALCO CONDORI LUIS FERNANDO;71568511;Enfermeria;Pabellon H;14/09/2025;17:00;lic. Pedro
+CHAMBI HUANCCO YOSEPH GRIMALDO;61254832;enfermeria;Pabellon I;15/09/2025;18:00;lic. Jose
+CHURA QUISPE ÑOLL ERICK;73762257;Enfermeria;Pabellon J;16/09/2025;19:00;lic. Pedro
+Salas Perez Adriano Kaleb;77475464;Enfermeria;Pabellon A;17/09/2025;20:00;lic. Jose
+LUQUE SORIA BRAD ARNOLD;74095608;Psicología;Pabellon C;18/09/2025;21:00;lic. Pedro
+QUISPE MAMANI ANAHI DANITZA;77378260;Psicología;Pabellon A;19/09/2025;20:00;lic. Jose
+CHAMBI SALAS ZEYDA LISBET;75694332;Psicología;Pabellon D;20/09/2025;14:00;lic. Pedro
+VARGAS MAMANI CAMILA;60169907;Enfermeria;Pabellon G;21/09/2025;15:00;lic. Jose
+QUISPE URRUTIA DANIELA ALIZEE;60983328;Enfermeria;Pabellon H;22/09/2025;16:00;lic. Pedro
+RAMIREZ MENOR GEINER ALEXANDER;73986718;Enfermeria;Pabellon I;23/09/2025;17:00;lic. Jose
+MUSAJA TICONA LIZZET JOSSIE;75434740;Psicología;Pabellon J;24/09/2025;18:00;lic. Pedro
+MAMANI TAPARA RUTH RUBI;61047074;Enfermeria;Pabellon A;25/09/2025;19:00;lic. Jose
+APAZA JACHO RUBEN YONATAN;74214332;Enfermeria;Pabellon C;26/09/2025;20:00;lic. Pedro
+Chipana Ñahuinlla Sarai Angheline;61091844;Enfermeria;Pabellon B;27/09/2025;21:00;lic. Jose
+Colque Chacon kylla Annet;71189607;Psicología;Pabellon A;28/09/2025;20:00;lic. Pedro
+PINTADO VARGAS SANDI LISEHT;61806101;Enfermeria;Pabellon D;29/09/2025;14:00;lic. Jose
+Onque Jallo Jamilet anyeles;71060227;Enfermeria;Pabellon G;30/09/2025;15:00;lic. Pedro
+CORDOVA TORREJON RAQUEL DEL PILAR;60510020;Enfermeria;Pabellon H;12/09/2025;16:00;lic. Jose
+Arratia Soto Bill Aldair;73475809;Enfermeria;Pabellon I;13/09/2025;17:00;lic. Pedro
+CHARCA CHARCA SHEYLA EVELYN;60518497;Enfermeria;Pabellon J;14/09/2025;18:00;lic. Jose
+Roque Chambi Edson Daniel;78550167;Psicología;Pabellon A;15/09/2025;14:00;lic. Pedro
+TICONA MAMANI JOSUE ALEXANDER VINCENZO;60940762;Enfermeria;Pabellon C;16/09/2025;15:00;lic. Jose
+Yana Canaza Lesly Wendy;61158853;Psicología;Pabellon B;17/09/2025;16:00;lic. Pedro
+Labajos Pinedo Weysles;60030926;Psicología;Pabellon A;18/09/2025;17:00;lic. Jose
+Charca Ramos Leydi Rayza;61159106;Psicología;Pabellon D;19/09/2025;18:00;lic. Pedro
+NINA RAMOS ADERLY;60292906;Psicología;Pabellon A;20/09/2025;19:00;lic. Jose
+Paco Mamani Manuel Alejandro Illari;61094249;Nutrición;Pabellon D;21/09/2025;20:00;lic. Pedro
+PIZARRO TAFUR STALIN;60031596;Enfermeria;Pabellon G;22/09/2025;21:00;lic. Jose
+PANCCA MIRANDA VICTOR ROBINHO;61094026;Psicología;Pabellon H;23/09/2025;20:00;lic. Pedro
+Chura Aruhuanca Israel Jaime;61152804;Psicología;Pabellon I;24/09/2025;14:00;lic. Jose
+QUISOCALA RAMOS WILLIAM;61000428;Psicología;Pabellon J;25/09/2025;15:00;lic. Pedro
+CONDORI CRUZ JHON GILBER;73763972;Psicología;Pabellon A;26/09/2025;16:00;lic. Jose
+Uturunco Zea Kenyer Rodrigo;61158689;Psicología;Pabellon C;27/09/2025;17:00;lic. Pedro
+Ticona Lipe Estefany Eliana;73298874;Enfermeria;Pabellon B;28/09/2025;18:00;lic. Jose
+Calapuja Calcina KATERINE SHANTAL;60472286;Enfermeria;Pabellon A;29/09/2025;19:00;lic. Pedro
+DIAZ SANCHEZ JOSUE EDILBERTO;78372458;Enfermeria;Pabellon D;30/09/2025;20:00;lic. Jose
+Gonzalo Apaza Anyely Fiorela;60836727;Psicología;Pabellon G;12/09/2025;21:00;lic. Pedro
+ASQUI LAYME EDY SANTIAGO;60837383;Enfermeria;Pabellon H;13/09/2025;20:00;lic. Jose
+LEONARDO ENRIQUEZ RUBINHO JESUS;61090420;Enfermeria;Pabellon I;14/09/2025;14:00;lic. Pedro
+CONDORI QUISOCALA KEVIN JHEAMPOOL;77126506;Psicología;Pabellon J;15/09/2025;15:00;lic. Jose
+Condori Cheje Yamilet Nicole;75476072;Psicología;Pabellon A;16/09/2025;14:00;lic. Pedro
+Canaza Vilca Luz Nayely;60067245;Ingeniería Civil;Pabellon C;17/09/2025;15:00;lic. Jose
+YAPU YAPU LILIAN MARILU;60765159;Enfermeria;Pabellon B;18/09/2025;16:00;lic. Pedro
+CANAZA MAMANI CRISHLY MELANIA;60223793;Enfermeria;Pabellon A;19/09/2025;17:00;lic. Jose
+PARICAHUA ZELA YEISON JOSSUE;76771532;Enfermeria;Pabellon D;20/09/2025;18:00;lic. Pedro
+Villca Mamani Willian brayhan;60195400;Ingeniería ambiental;Pabellon G;21/09/2025;19:00;lic. Jose
+Bruna Quilla Andrea Mishel Analy;61320913;Psicología;Pabellon H;22/09/2025;20:00;lic. Pedro
+Puma Quispe Mishell Adela;61158679;Enfermeria;Pabellon I;23/09/2025;21:00;lic. Jose
+MAMANI PILCO NEISSMY ENMENY;60224299;Psicología;Pabellon J;24/09/2025;20:00;lic. Pedro
+QUISPE YUCRA MAELY YESSENIA;60286414;Psicología;Pabellon A;25/09/2025;14:00;lic. Jose
+CHURA CCACA ZAYURI YAMILE;61046991;Enfermeria;Pabellon C;26/09/2025;15:00;lic. Pedro
+VILCA LARICO CAMILA JAZMIN;71146558;Educación inicial y Puericultura;Pabellon A;27/09/2025;16:00;lic. Jose
+Aro Coyla Edelmiro Josue;60538297;Psicología;Pabellon D;28/09/2025;17:00;lic. Pedro
+COAQUIRA NEYRA MILAGROS;61254689;Enfermeria;Pabellon A;29/09/2025;18:00;lic. Jose
+Mamani Arapa Lizbeth;61093283;Ingeniería ambiental;Pabellon D;30/09/2025;19:00;lic. Pedro
+PAYEHUANCA OSNAYO JUDITH MIREYDY;61255527;Ingeniería Civil;Pabellon G;12/09/2025;20:00;lic. Jose
+Mayta Vargas Yosep;60554039;Enfermeria;Pabellon H;13/09/2025;21:00;lic. Pedro
+CUTIPA BUSTINZA ANA MARIA;60758785;Psicología;Pabellon I;14/09/2025;20:00;lic. Jose
+BELTRAN APAZA WILLIAMS EDUARDO;61001012;Educación Física, recreación y deportes;Pabellon J;15/09/2025;14:00;lic. Pedro
+RAMOS ARAPA MARILYN DANITZA;76587042;Ingeniería ambiental;Pabellon A;16/09/2025;15:00;lic. Jose
+HUISA QUISPE YOSEP LENIN;60353828;Enfermeria;Pabellon C;17/09/2025;16:00;lic. Pedro
+HALLASI MANCHA MELANY WENDY;61320585;Arquitectura y Urbanismo;Pabellon B;18/09/2025;17:00;lic. Jose
+CCORIMANYA TUPA LETSY;75758885;Educación Primaria y Pedagogía Terapeútica;Pabellon A;19/09/2025;18:00;lic. Pedro
+ZELA FRISANCHO GENYFER KEY;61001153;Enfermeria;Pabellon D;20/09/2025;19:00;lic. Jose
+PACCO COTACALLAPA MARI LEIDY;60286951;Enfermeria;Pabellon G;21/09/2025;20:00;lic. Pedro
+LAURA QUISPE GRACE EMERY;71045940;Enfermeria;Pabellon H;22/09/2025;21:00;lic. Jose
+PARICAHUA OJEDA YORD BRAYAN;75115296;Enfermeria;Pabellon I;23/09/2025;20:00;lic. Pedro
+MARIN MAMANI THALIA LUCERO;72308603;Psicología;Pabellon J;24/09/2025;14:00;lic. Jose
+AYAMAMANI URDAY ADRIANA REYNA;76585310;Enfermeria;Pabellon A;25/09/2025;15:00;lic. Pedro
+CONDORI CALLA RUTH NELIDA;60067154;Enfermeria;Pabellon C;26/09/2025;16:00;lic. Jose
+QUISPE PARI KELY ROXY;60178366;Psicología;Pabellon B;27/09/2025;17:00;lic. Pedro
+Cañazaca Choque Katerine Nadine;74179330;Psicología;Pabellon A;28/09/2025;18:00;lic. Jose
+MAMANI BRADO DEYSSI JEMINA;60354367;Psicología;Pabellon D;29/09/2025;14:00;lic. Pedro
+Humpiri Mamani Yaquelin Milagros;60224707;Psicología;Pabellon A;30/09/2025;15:00;lic. Jose
+Quispe Villazante Exon omar;60248317;Psicología;Pabellon D;12/09/2025;16:00;lic. Pedro
+RAMIREZ LUQUE ROY GUINNER;60204089;Enfermeria;Pabellon G;13/09/2025;17:00;lic. Jose
+CALCINA SANCA ELIZABET;60589390;Enfermeria;Pabellon H;14/09/2025;18:00;lic. Pedro
+VELEZ PARICAHUA SWEN ERICSSON;61254864;Enfermeria;Pabellon I;15/09/2025;19:00;lic. Jose
+PACORI YANA LUZ DELIA;77534355;Enfermeria;Pabellon J;16/09/2025;20:00;lic. Pedro
+MONTENEGRO ZAPANA DIANA MILAGROS;61254511;Enfermeria;Pabellon A;17/09/2025;21:00;lic. Jose
+CONDORI CANAZA RONY FELICIANO;73741691;Enfermeria;Pabellon C;18/09/2025;20:00;lic. Pedro
+MAMANI VILCA EVELYN;60909598;Psicología;Pabellon B;19/09/2025;14:00;lic. Jose
+MONTES AGUIRRE GIUSEPI YASIR DEL PIERO;74642996;Enfermeria;Pabellon A;20/09/2025;15:00;lic. Pedro
+Arosquipa Quispe Crysthian Brandon;74229003;Administración;Pabellon D;21/09/2025;16:00;lic. Jose
+PALACO PARIAPAZA GREINS CAMILA;76471532;Enfermeria;Pabellon G;22/09/2025;17:00;lic. Pedro
+VILCA ZAPANA LUDY;72047802;Ingeniería Civil;Pabellon H;23/09/2025;18:00;lic. Jose
+APAZA CONDORI REINER ELIO;61000772;Enfermeria;Pabellon I;24/09/2025;19:00;lic. Pedro
+RAMOS PARI ANHELY FIORELA;60234139;Psicología;Pabellon J;25/09/2025;20:00;lic. Jose
+Quispe Rojas Fiorella;74659100;Ingeniería Civil;Pabellon A;26/09/2025;21:00;lic. Pedro
+MAMANI QUISPE MILAGROS GABY;60282318;Psicología;Pabellon C;27/09/2025;20:00;lic. Jose
+YANAPA FLORES CRISTHIAN ABEL;60523180;Psicología;Pabellon A;28/09/2025;14:00;lic. Pedro
+TORRES QUISPE YAZMIN XIMENA;61093897;Ingeniería de sistemas;Pabellon D;29/09/2025;15:00;lic. Jose
+CAYRA CHIPANA EMERY LINDA;60260799;Psicología;Pabellon G;30/09/2025;16:00;lic. Pedro
+CONDORI CHIARA CARLOS DANIEL;75237042;Psicología;Pabellon H;12/09/2025;17:00;lic. Jose
+BENDITA QUEQUEJANA JHIMMY ANTHONY;61255218;Enfermeria;Pabellon I;13/09/2025;18:00;lic. Pedro
+QUILLA SABEDRA YAACK RONAL;60069374;Enfermeria;Pabellon J;14/09/2025;19:00;lic. Jose
+CONDORI HANCCO DIANA YESENIA;73361486;Enfermeria;Pabellon A;15/09/2025;20:00;lic. Pedro
+Rodriguez Tupa Giuseppe Verdi;76980419;Enfermeria;Pabellon C;16/09/2025;21:00;lic. Jose
+SANCHEZ MAMANI LILIANA ELIZABETH;72781332;Ingeniería Civil;Pabellon B;17/09/2025;20:00;lic. Pedro
+TOQUE YANAPA ROSSY ANAYELY;60256517;Enfermeria;Pabellon A;18/09/2025;14:00;lic. Jose
+RIVERA NAVARRO KIYARA FANY;60272373;Administración;Pabellon D;19/09/2025;15:00;lic. Pedro
+QUISPE LIVISE MARYORI;71864730;Enfermeria;Pabellon G;20/09/2025;16:00;lic. Jose
+HUAMAN MAMANI LEYDI PILAR;61046940;Educación inicial y Puericultura;Pabellon H;21/09/2025;17:00;lic. Pedro
+CANAZA APAZA KAREN ANGELICA;60256521;Enfermeria;Pabellon A;22/09/2025;18:00;lic. Jose
+QUISPE APAZA ROSIO VANESA;61399896;Psicología;Pabellon D;23/09/2025;19:00;lic. Pedro
+QUISPE GRAJEDA JOHAN FABRICIO;72493704;Enfermeria;Pabellon G;24/09/2025;20:00;lic. Jose
+ITO PELINCO JUDITH NATALY;60179713;Ingeniería ambiental;Pabellon H;25/09/2025;21:00;lic. Pedro
+CHAVEZ APAZA SADITH YOSELYN;61046872;Enfermeria;Pabellon I;26/09/2025;20:00;lic. Jose
+FASABI SAUCEDO MACIELY NICOLE;60831938;Ingeniería Civil;Pabellon J;27/09/2025;14:00;lic. Pedro
+ZARATE TAPARA ROSSY ROSARIO;60303084;Psicología;Pabellon A;28/09/2025;15:00;lic. Jose
+CANO PACORI MIGUEL ANGEL;60837446;Enfermeria;Pabellon C;29/09/2025;16:00;lic. Pedro
+Viza Echama Gisela Keiko;77505335;Enfermeria;Pabellon B;30/09/2025;17:00;lic. Jose
+PACOMPIA PANCCA ALEX LIZANDRO;62101714;Psicología;Pabellon A;12/09/2025;18:00;lic. Pedro
+Quispe zapana Luz Brenda;61158632;Enfermeria;Pabellon D;13/09/2025;14:00;lic. Jose
+VARGAS MENA KAREN LIZETH;73576053;Ingeniería Civil;Pabellon G;14/09/2025;15:00;lic. Pedro
+ZUÑIGA PARI MARIANELA;61093390;Psicología;Pabellon H;15/09/2025;16:00;lic. Jose
+Garate Condori Liz Nayali;77689958;Psicología;Pabellon I;16/09/2025;17:00;lic. Pedro
+Lopez Naira Sheyla Melani;60208580;Educación Física, recreación y deportes;Pabellon J;17/09/2025;18:00;lic. Jose
+MAMANI SONCCO JHIMI MEXTRIX;60231598;Psicología;Pabellon A;18/09/2025;19:00;lic. Pedro
+Quispe Vilca Hayme Anyhely;60909040;Psicología;Pabellon C;19/09/2025;20:00;lic. Jose
+Cahua Mamani Alain Amilcar;60335223;Ingeniería Civil;Pabellon B;20/09/2025;21:00;lic. Pedro
+Jauja Coaquira Diana Milagros;60272365;Ingeniería de sistemas;Pabellon A;21/09/2025;20:00;lic. Jose
+Mamani Estofanero Helbert Michael;70666216;Educación Física, recreación y deportes;Pabellon D;22/09/2025;14:00;lic. Pedro
+CCALLI COILA EMMA DANILA;76861245;Educación Primaria y Pedagogía Terapeútica;Pabellon G;23/09/2025;15:00;lic. Jose
+Mamani Ochochoque Luz Mery;76846270;Educación inicial y Puericultura;Pabellon H;24/09/2025;16:00;lic. Pedro
+Condori Mamani Carlos daniel;77129831;Educación inicial y Puericultura;Pabellon I;25/09/2025;17:00;lic. Jose
+VARGAS MAMANI ALISSON NIKOL;60230787;Contabilidad , Gestión tributaria y Aduanera;Pabellon J;26/09/2025;18:00;lic. Pedro
+BLANCO OVANO LINO MARCHELLO;60556025;Psicología;Pabellon A;27/09/2025;19:00;lic. Jose
+Vilcanqui Chura Bethzy Vianey;60261969;Educación Física, recreación y deportes;Pabellon C;28/09/2025;20:00;lic. Pedro
+TURPO NUÑEZ JEISSON JEAMPIER;61254695;Educación Primaria y Pedagogía Terapeútica;Pabellon B;29/09/2025;21:00;lic. Jose
+COLCA GUILLEN LOURDES ANDREA;61046943;Educación Física, recreación y deportes;Pabellon A;30/09/2025;20:00;lic. Pedro
+RAMOS QUISPE ANAHY SHIOMARA;60908822;Contabilidad , Gestión tributaria y Aduanera;Pabellon D;12/09/2025;14:00;lic. Jose
+CALATAYUD PONCE NAYELY MILAGROS;60220547;Educación Primaria y Pedagogía Terapeútica;Pabellon G;13/09/2025;15:00;lic. Pedro
+CHOQUE CHURATA RONALD ALEXIS;73697312;Educación inicial y Puericultura;Pabellon H;14/09/2025;16:00;lic. Jose
+TICONA PINEDA MADELEY;60353805;Educación inicial y Puericultura;Pabellon I;15/09/2025;17:00;lic. Pedro
+Arapa Quispe Judith Adelaida;61254596;Educación Primaria y Pedagogía Terapeútica;Pabellon J;16/09/2025;18:00;lic. Jose
+POMA HANCCO RODRIGO JAVIER;60837200;Administración;Pabellon A;17/09/2025;19:00;lic. Pedro
+BACILIO GIL THATIANA MILAGROS;60925773;Educación Primaria y Pedagogía Terapeútica;Pabellon C;18/09/2025;20:00;lic. Jose
+QUISPE CHAMBI YANNEL GLORIA;61320729;Administración;Pabellon B;19/09/2025;14:00;lic. Pedro
+MENDOZA MAMANI NANCY GISELA;61254952;Administración;Pabellon A;20/09/2025;15:00;lic. Jose
+RAMOS SANTAMARIA ALEX YEISON;73713209;Educación inicial y Puericultura;Pabellon D;21/09/2025;16:00;lic. Pedro
+CHINO SUCAPUCA BRAYAN SHANDEL;61158612;Educación Primaria y Pedagogía Terapeútica;Pabellon G;22/09/2025;17:00;lic. Jose
+CHANCASANAMPA TRINIDAD ANGIE JHANDIRA;61278781;Contabilidad , Gestión tributaria y Aduanera;Pabellon H;23/09/2025;18:00;lic. Pedro
+APAZA TICONA DANIEL EDUARDO;71574819;Educación inicial y Puericultura;Pabellon I;24/09/2025;19:00;lic. Jose
+JAVIER TILA BRENDA DAYHANA;61000642;Administración;Pabellon A;25/09/2025;20:00;lic. Pedro
+CHAMBI CONDORI EDITH MILAGROS;60264100;Educación Primaria y Pedagogía Terapeútica;Pabellon D;26/09/2025;21:00;lic. Jose
+Coaquira Idme Álvaro Ramiro;61254697;Educación inicial y Puericultura;Pabellon G;27/09/2025;20:00;lic. Pedro
+Pari Gutiérrez Carlos Andre;61255031;Contabilidad , Gestión tributaria y Aduanera;Pabellon H;28/09/2025;14:00;lic. Jose
+APAZA MAYTA ANGIE LIZBETH;60068395;Educación inicial y Puericultura;Pabellon I;29/09/2025;15:00;lic. Pedro
+CHURA GUTIERREZ ROUSSE DANIELA;60836780;Educación Especialidad Inglés y Español;Pabellon J;30/09/2025;16:00;lic. Jose
+APAZA YUJRA ALLISON ROUSS;61255646;Educación inicial y Puericultura;Pabellon A;12/09/2025;17:00;lic. Pedro
+CAPIA CARRIZALES JHOEL EDISSON;60836711;Educación inicial y Puericultura;Pabellon C;13/09/2025;18:00;lic. Jose
+CALSIN PACOMPIA ANI LIZ;60765485;Educación inicial y Puericultura;Pabellon B;14/09/2025;14:00;lic. Pedro
+CAMA VILCA YUDITH DANITZA;60068373;Educación Especialidad Inglés y Español;Pabellon A;15/09/2025;15:00;lic. Jose
+QUISPE LARICO WENDY;60068375;Ingeniería Civil;Pabellon D;16/09/2025;16:00;lic. Pedro
+VARGAS TITO ROCIO ZULEMA;60486471;Ingeniería Civil;Pabellon G;17/09/2025;17:00;lic. Jose
+QUISPE AGUILAR KASSANDRA YAMILETH;75348577;Ingeniería Civil;Pabellon H;18/09/2025;18:00;lic. Pedro
+MACEDO YANA WILLIAN ERICK;77470869;Ingeniería Civil;Pabellon I;19/09/2025;19:00;lic. Jose
+Yucra Arela Jhilmar David;60836661;Ingeniería de sistemas;Pabellon J;20/09/2025;20:00;lic. Pedro
+Mamani Rayme Jackie Elias;77908329;Ingeniería Civil;Pabellon A;21/09/2025;21:00;lic. Jose
+Puma Gallegos Lady Isabel;60419519;Ingeniería Civil;Pabellon C;22/09/2025;20:00;lic. Pedro
+QUISPE TICONA SHEYLA INES;60606205;Ingeniería Civil;Pabellon B;23/09/2025;14:00;lic. Jose
+AHUMADA HUAYNACHO JUDITH GRETY;60267306;Ingeniería Civil;Pabellon A;24/09/2025;15:00;lic. Pedro
+Vargas Mamani Roxana soledad;60486498;Contabilidad y Gestión tributaria y Aduanera - A DISTANCIA;Pabellon D;25/09/2025;16:00;lic. Jose
+Condori Quilca Marily Zaira;71739859;Ingeniería Civil;Pabellon G;26/09/2025;17:00;lic. Pedro
+QUISPE HUARAYA ANTHONY FERNANDO;76840097;Ingeniería de sistemas;Pabellon H;27/09/2025;18:00;lic. Jose
+MACEDO ANCONEIRA NOEMI ESTHER;75490121;Ingeniería de sistemas;Pabellon I;28/09/2025;19:00;lic. Pedro
+Quispe Janampa Jhefferson Albeyro;62528083;Ingeniería ambiental;Pabellon J;29/09/2025;20:00;lic. Jose
+Vilca Delgado de la Flor Helen Mireya;71153546;Ingeniería de sistemas;Pabellon A;30/09/2025;21:00;lic. Pedro
+Pari Cahuapaza Fabiola Soleyka;60765429;Ingeniería Civil;Pabellon C;12/09/2025;20:00;lic. Jose
+Apaza Tuyo Jakelyn Rosmery;74430395;Ingeniería Civil;Pabellon A;13/09/2025;14:00;lic. Pedro
+GONZALO GALLEGOS MISHELL GERALDINE;61254825;Educación Primaria y Pedagogía Terapeútica;Pabellon D;14/09/2025;15:00;lic. Jose
+Yana Chino Jhon Franklin;60837070;Ingeniería Civil;Pabellon G;15/09/2025;16:00;lic. Pedro
+CHAYÑA PARICOTO MILAGROS LISSETH;60606195;Ingeniería de sistemas;Pabellon H;16/09/2025;17:00;lic. Jose
+CONDORI MAMANI KARINA JHONMY;75741051;Ingeniería Civil;Pabellon I;17/09/2025;18:00;lic. Pedro
+QUISPE MERCADO LALO DARWIN;60460527;Ingeniería Civil;Pabellon J;18/09/2025;19:00;lic. Jose
+SOTO HUMPIRI CAMILA JHEIMY;61320176;Ingeniería Civil;Pabellon A;19/09/2025;20:00;lic. Pedro
+RIVEROS ROSELLO DANNAF THALYA;61047043;Educación inicial y Puericultura;Pabellon C;20/09/2025;21:00;lic. Jose
+Huaman Hancco Yasuri Yandire;61255294;Ingeniería Civil;Pabellon B;21/09/2025;20:00;lic. Pedro
+Castillo Huaraccallo Efrain Jefry;60067826;Ingeniería Civil;Pabellon A;22/09/2025;14:00;lic. Jose
+Huarsocca Huarsocca Obed Michael;70900618;Ingeniería ambiental;Pabellon D;23/09/2025;15:00;lic. Pedro
+CCARITA CCARITA FRISAYDA;60523168;Arquitectura y Urbanismo;Pabellon G;24/09/2025;16:00;lic. Jose
+APAZA MAMANI YACK ANTONI;60643756;Administración;Pabellon H;25/09/2025;17:00;lic. Pedro
+MACHACA APAZA GUADALUPE LIZBHET;61094230;Ingeniería de sistemas;Pabellon I;26/09/2025;18:00;lic. Jose
+Vilca Huayta Esmeralda;60485638;Ingeniería de sistemas;Pabellon J;27/09/2025;14:00;lic. Pedro
+Ccarita Apaza Lady Judith;75238424;Enfermeria;Pabellon A;28/09/2025;15:00;lic. Jose
+Riega Batallanos Arellys Muriel;61093268;Arquitectura y Urbanismo;Pabellon C;29/09/2025;16:00;lic. Pedro
+ALBARRACIN CAZASOLA ANYELY;61093543;Ingeniería Civil;Pabellon A;30/09/2025;17:00;lic. Jose
+Condori Coaquira Ada Araceli;74175215;Psicología;Pabellon D;12/09/2025;18:00;lic. Pedro
+Choque Chura Liz Yaneth;60305320;Enfermeria;Pabellon G;13/09/2025;19:00;lic. Jose
+QUISPE GONZALES RICHARD ARNOLD;60909706;Nutrición;Pabellon H;14/09/2025;20:00;lic. Pedro
+PACCO HUANCA EVELYN;75532805;Ingeniería Civil;Pabellon I;15/09/2025;21:00;lic. Jose
+ALVAREZ MOYA WILTON ALEX;62121660;Administración;Pabellon J;16/09/2025;20:00;lic. Pedro
+CHAMBI CHOQUE NELSIGREYSS ELENA;60348609;Ingeniería Civil;Pabellon A;17/09/2025;14:00;lic. Jose
+QUISPE MAYHUA ROY GERMAN;60501237;Ingeniería ambiental;Pabellon C;18/09/2025;15:00;lic. Pedro
+MAMANI DE LA CRUZ KENYI DAVID;60213567;Psicología;Pabellon B;19/09/2025;16:00;lic. Jose
+QUISPE LOPEZ YHAMILEY YULISSA;76922350;Psicología;Pabellon A;20/09/2025;17:00;lic. Pedro
+CCALLO HINOJOSA JACK ANDY;60255869;Educación Primaria y Pedagogía Terapeútica;Pabellon D;21/09/2025;18:00;lic. Jose
+APAZA QUISPE ANALY DEYCI;61617800;Nutrición;Pabellon G;22/09/2025;19:00;lic. Pedro
+RODRIGO WAYRA HAINM;76838502;Arquitectura y Urbanismo;Pabellon H;23/09/2025;20:00;lic. Jose
+Leque Condori Edgar Jesus;73258661;Psicología;Pabellon I;24/09/2025;21:00;lic. Pedro
+CONDORI BEJAR ANYELY YASMIN;81249760;Psicología;Pabellon J;25/09/2025;20:00;lic. Jose
+Cuenta Huahuacondori Luis Fernando;60557533;Ingeniería Civil;Pabellon A;26/09/2025;14:00;lic. Pedro
+Mamani Apaza Edwin Dilan;60470838;Contabilidad , Gestión tributaria y Aduanera;Pabellon C;27/09/2025;15:00;lic. Jose
+TAPARA VELARDE YOSHELIN MARICIELO;61158914;Arquitectura y Urbanismo;Pabellon B;28/09/2025;16:00;lic. Pedro
+Vilca Vilca Lilian Mayra;62895122;Enfermeria;Pabellon A;29/09/2025;14:00;lic. Jose
+Mamani Mayta Nayeli;60567768;Educación Especialidad Inglés y Español;Pabellon D;30/09/2025;15:00;lic. Pedro
+CALLA HUAMAN KAROL NIKOL;61094002;Enfermeria;Pabellon G;12/09/2025;16:00;lic. Jose
+HUALLPA CHECMAPUCO NELIDA EUGENIA;77463831;Ingeniería Civil;Pabellon H;13/09/2025;17:00;lic. Pedro
+CHUQUIMAMANI UMIÑA JOSE FERNANDO;76723634;Psicología;Pabellon I;14/09/2025;18:00;lic. Jose
+Larico Quispe Jersson Hugo;75022620;Psicología;Pabellon J;15/09/2025;19:00;lic. Pedro
+ALARCON RODRIGUEZ LUIS ANDRES;60908837;Enfermeria;Pabellon A;16/09/2025;20:00;lic. Jose
+LIPA CONDORI EDSON;60491200;#N/A;Pabellon C;17/09/2025;21:00;lic. Pedro
+PAMPA CALCINA JHON LENIN;78041256;Educación Primaria y Pedagogía Terapeútica;Pabellon A;18/09/2025;20:00;lic. Jose
+CONDORI CARRIZALES CRISTHIAN;73887106;Ingeniería Civil;Pabellon D;19/09/2025;14:00;lic. Pedro
+MAMANI BELLIDO ERIK YANDEL;61001163;Arquitectura y Urbanismo;Pabellon G;20/09/2025;15:00;lic. Jose
+CARRIZALES CCARI RAMIRO ARON;60069419;Psicología;Pabellon A;21/09/2025;16:00;lic. Pedro
+MORALES PARI AKEMI ABIGAIL;60837322;Enfermeria;Pabellon D;22/09/2025;17:00;lic. Jose
+QUISPE COSI EMELY MISHELL;61320456;Ingeniería Civil;Pabellon G;23/09/2025;18:00;lic. Pedro
+YANARICO QUISPE DIEGO ALEXANDER;60837126;Enfermeria;Pabellon H;24/09/2025;19:00;lic. Jose
+QUISPE POMA ULSEN DELVIS;60394350;Enfermeria;Pabellon I;25/09/2025;20:00;lic. Pedro
+CACERES HUANCCO EMERSSON ALESSANDRO;60909665;Enfermeria;Pabellon J;26/09/2025;21:00;lic. Jose
+VELARDE MANRIQUE OSCAR KENNETH;73148140;Educación Especialidad Inglés y Español;Pabellon A;27/09/2025;20:00;lic. Pedro
+LOPE MACEDO JEFERSON ALEXANDER;60504815;Psicología;Pabellon C;28/09/2025;14:00;lic. Jose
+POMA QUISPE JHON AMILCAR;60491215;Psicología;Pabellon B;29/09/2025;15:00;lic. Pedro
+QUIÑONES SALAZAR JOSE MANUEL;72538150;Enfermeria;Pabellon A;30/09/2025;16:00;lic. Jose
+CACERES CATACORA IVAN PIERO;60909700;Educación inicial y Puericultura;Pabellon D;12/09/2025;17:00;lic. Pedro
+CONDORI PARIZACA CARLOS DANIEL;71494687;Educación inicial y Puericultura;Pabellon G;13/09/2025;18:00;lic. Jose
+Canaza Quispe Eber Jesus;60234137;Educación inicial y Puericultura;Pabellon H;14/09/2025;19:00;lic. Pedro
+Coaquira Ticona Lenin Euder;60556031;Educación inicial y Puericultura;Pabellon I;15/09/2025;20:00;lic. Jose
+Surco Pampa Rossi Carolyn;60296206;Educación inicial y Puericultura;Pabellon J;16/09/2025;21:00;lic. Pedro
+Melo Silva Marlon Hamilcar;76471843;Educación inicial y Puericultura;Pabellon A;17/09/2025;20:00;lic. Jose
+Humpiri Humalla Hadad Henry;73539052;Educación inicial y Puericultura;Pabellon A;18/09/2025;14:00;lic. Pedro
+Callo Sacaca Vilma;72689868;Educación inicial y Puericultura;Pabellon D;19/09/2025;15:00;lic. Jose
+Condori Cari Dania rosa;75435257;Educación inicial y Puericultura;Pabellon G;20/09/2025;14:00;lic. Pedro
+TORRES ENRIQUEZ JHIRAN JAMILETH;60837457;Educación inicial y Puericultura;Pabellon H;21/09/2025;15:00;lic. Jose
+MAMANI COACALLA ROBERTH EDILSON;60240389;Educación inicial y Puericultura;Pabellon I;22/09/2025;16:00;lic. Pedro
+TICONA CONDORI DENILSON JOSEPH;61000432;Educación inicial y Puericultura;Pabellon J;23/09/2025;17:00;lic. Jose
+QUISPE ARAPA JADE METHALY;61000462;Educación inicial y Puericultura;Pabellon A;24/09/2025;18:00;lic. Pedro
+CALLA QUISPE FERNANDO JEREMY;63174405;Educación inicial y Puericultura;Pabellon C;25/09/2025;19:00;lic. Jose
+Apaza Alferez Anderson;61000734;Educación inicial y Puericultura;Pabellon B;26/09/2025;20:00;lic. Pedro
+TURPO NUÑEZ JEISSON JEAMPIER;61254695;Educación inicial y Puericultura;Pabellon A;27/09/2025;21:00;lic. Jose
+POMA HANCCO RODRIGO JAVIER;60837200;Educación inicial y Puericultura;Pabellon D;28/09/2025;20:00;lic. Pedro
+José Raúl Amanqui;71540313;Ing. Sistemas;Pabellon A;12/09/2025;14:00;lic. Jose
+Cuno Vilca Nhick Jhonnir;73807517;Psicología;Pabellon D;13/09/2025;15:00;lic. Pedro
+Apaza Mamani Jenie Abigail;75884732;Enfermeria;Pabellon G;14/09/2025;16:00;lic. Jose
+Mamani Cosi Yeferson Teves;75522992;Enfermeria;Pabellon H;15/09/2025;17:00;lic. Pedro
+Motte Urajahua Rohanguiel Edison;60228819;Psicología;Pabellon I;16/09/2025;18:00;lic. Jose
+Añari Ticona Telesforo Jesus;76161950;Enfermeria;Pabellon J;17/09/2025;19:00;lic. Pedro
+PILA BASQUEZ YOFORSAY EDER;70809646;Enfermeria;Pabellon A;18/09/2025;20:00;lic. Jose
+MAMANI CARRIZALES FLORCITA;77342066;Enfermeria;Pabellon C;19/09/2025;21:00;lic. Pedro
+Luque Condori Yamilet Milagros;75193262;Psicología;Pabellon B;20/09/2025;20:00;lic. Jose
+AQUINO MAMANI YAKI MADELEIN;75797824;Psicología;Pabellon A;21/09/2025;14:00;lic. Pedro
+CAYRA JOVE NELSON WILFREDO;72884471;Psicología;Pabellon D;22/09/2025;15:00;lic. Jose
+VELASQUEZ COLCA BEATRIZ;60069064;Enfermeria;Pabellon G;23/09/2025;16:00;lic. Pedro
+Espetia Nina Saray;74705707;Nutrición;Pabellon H;24/09/2025;17:00;lic. Jose
+QUISPE CONDORI MILAGROS MADELEYNE;61193025;Enfermeria;Pabellon I;25/09/2025;18:00;lic. Pedro
+VIZA BELLIDO ANYELI YAMILETH;61001261;Enfermeria;Pabellon J;26/09/2025;19:00;lic. Jose
+CHURA GALDOS RODRIGO ELOY;61320652;Enfermeria;Pabellon A;27/09/2025;20:00;lic. Pedro
+PAUCAR FLORES YHOSELIN;60850639;Enfermeria;Pabellon C;28/09/2025;21:00;lic. Jose
+DE LA TORRE LATORRE KIARA ROSA;73393999;Psicología;Pabellon B;29/09/2025;20:00;lic. Pedro
+TIPO JACHO JHANDDY ANAY;60065619;Enfermeria;Pabellon A;30/09/2025;14:00;lic. Jose
+Amanqui Ramos Luz Milagros;77538099;Enfermeria;Pabellon D;12/09/2025;15:00;lic. Pedro
+PINO PACCORI JHOANA DEL PILAR;61000985;Enfermeria;Pabellon G;13/09/2025;16:00;lic. Jose
+CHALCO CONDORI LUIS FERNANDO;71568511;Enfermeria;Pabellon H;14/09/2025;17:00;lic. Pedro
+CHAMBI HUANCCO YOSEPH GRIMALDO;61254832;enfermeria;Pabellon I;15/09/2025;18:00;lic. Jose
+CHURA QUISPE ÑOLL ERICK;73762257;Enfermeria;Pabellon J;16/09/2025;19:00;lic. Pedro
+Salas Perez Adriano Kaleb;77475464;Enfermeria;Pabellon A;17/09/2025;20:00;lic. Jose
+LUQUE SORIA BRAD ARNOLD;74095608;Psicología;Pabellon C;18/09/2025;21:00;lic. Pedro
+QUISPE MAMANI ANAHI DANITZA;77378260;Psicología;Pabellon A;19/09/2025;20:00;lic. Jose
+CHAMBI SALAS ZEYDA LISBET;75694332;Psicología;Pabellon D;20/09/2025;14:00;lic. Pedro
+VARGAS MAMANI CAMILA;60169907;Enfermeria;Pabellon G;21/09/2025;15:00;lic. Jose
+QUISPE URRUTIA DANIELA ALIZEE;60983328;Enfermeria;Pabellon H;22/09/2025;16:00;lic. Pedro
+RAMIREZ MENOR GEINER ALEXANDER;73986718;Enfermeria;Pabellon I;23/09/2025;17:00;lic. Jose
+MUSAJA TICONA LIZZET JOSSIE;75434740;Psicología;Pabellon J;24/09/2025;18:00;lic. Pedro
+MAMANI TAPARA RUTH RUBI;61047074;Enfermeria;Pabellon A;25/09/2025;19:00;lic. Jose
+APAZA JACHO RUBEN YONATAN;74214332;Enfermeria;Pabellon C;26/09/2025;20:00;lic. Pedro
+Chipana Ñahuinlla Sarai Angheline;61091844;Enfermeria;Pabellon B;27/09/2025;21:00;lic. Jose
+Colque Chacon kylla Annet;71189607;Psicología;Pabellon A;28/09/2025;20:00;lic. Pedro
+PINTADO VARGAS SANDI LISEHT;61806101;Enfermeria;Pabellon D;29/09/2025;14:00;lic. Jose
+Onque Jallo Jamilet anyeles;71060227;Enfermeria;Pabellon G;30/09/2025;15:00;lic. Pedro
+CORDOVA TORREJON RAQUEL DEL PILAR;60510020;Enfermeria;Pabellon H;12/09/2025;16:00;lic. Jose
+Arratia Soto Bill Aldair;73475809;Enfermeria;Pabellon I;13/09/2025;17:00;lic. Pedro
+CHARCA CHARCA SHEYLA EVELYN;60518497;Enfermeria;Pabellon J;14/09/2025;18:00;lic. Jose
+Roque Chambi Edson Daniel;78550167;Psicología;Pabellon A;15/09/2025;14:00;lic. Pedro
+TICONA MAMANI JOSUE ALEXANDER VINCENZO;60940762;Enfermeria;Pabellon C;16/09/2025;15:00;lic. Jose
+Yana Canaza Lesly Wendy;61158853;Psicología;Pabellon B;17/09/2025;16:00;lic. Pedro
+Labajos Pinedo Weysles;60030926;Psicología;Pabellon A;18/09/2025;17:00;lic. Jose
+Charca Ramos Leydi Rayza;61159106;Psicología;Pabellon D;19/09/2025;18:00;lic. Pedro
+NINA RAMOS ADERLY;60292906;Psicología;Pabellon A;20/09/2025;19:00;lic. Jose
+Paco Mamani Manuel Alejandro Illari;61094249;Nutrición;Pabellon D;21/09/2025;20:00;lic. Pedro
+PIZARRO TAFUR STALIN;60031596;Enfermeria;Pabellon G;22/09/2025;21:00;lic. Jose
+PANCCA MIRANDA VICTOR ROBINHO;61094026;Psicología;Pabellon H;23/09/2025;20:00;lic. Pedro
+Chura Aruhuanca Israel Jaime;61152804;Psicología;Pabellon I;24/09/2025;14:00;lic. Jose
+QUISOCALA RAMOS WILLIAM;61000428;Psicología;Pabellon J;25/09/2025;15:00;lic. Pedro
+CONDORI CRUZ JHON GILBER;73763972;Psicología;Pabellon A;26/09/2025;16:00;lic. Jose
+Uturunco Zea Kenyer Rodrigo;61158689;Psicología;Pabellon C;27/09/2025;17:00;lic. Pedro
+Ticona Lipe Estefany Eliana;73298874;Enfermeria;Pabellon B;28/09/2025;18:00;lic. Jose
+Calapuja Calcina KATERINE SHANTAL;60472286;Enfermeria;Pabellon A;29/09/2025;19:00;lic. Pedro
+DIAZ SANCHEZ JOSUE EDILBERTO;78372458;Enfermeria;Pabellon D;30/09/2025;20:00;lic. Jose
+Gonzalo Apaza Anyely Fiorela;60836727;Psicología;Pabellon G;12/09/2025;21:00;lic. Pedro
+ASQUI LAYME EDY SANTIAGO;60837383;Enfermeria;Pabellon H;13/09/2025;20:00;lic. Jose
+LEONARDO ENRIQUEZ RUBINHO JESUS;61090420;Enfermeria;Pabellon I;14/09/2025;14:00;lic. Pedro
+CONDORI QUISOCALA KEVIN JHEAMPOOL;77126506;Psicología;Pabellon J;15/09/2025;15:00;lic. Jose
+Condori Cheje Yamilet Nicole;75476072;Psicología;Pabellon A;16/09/2025;14:00;lic. Pedro
+Canaza Vilca Luz Nayely;60067245;Ingeniería Civil;Pabellon C;17/09/2025;15:00;lic. Jose
+YAPU YAPU LILIAN MARILU;60765159;Enfermeria;Pabellon B;18/09/2025;16:00;lic. Pedro
+CANAZA MAMANI CRISHLY MELANIA;60223793;Enfermeria;Pabellon A;19/09/2025;17:00;lic. Jose
+PARICAHUA ZELA YEISON JOSSUE;76771532;Enfermeria;Pabellon D;20/09/2025;18:00;lic. Pedro
+Villca Mamani Willian brayhan;60195400;Ingeniería ambiental;Pabellon G;21/09/2025;19:00;lic. Jose
+Bruna Quilla Andrea Mishel Analy;61320913;Psicología;Pabellon H;22/09/2025;20:00;lic. Pedro
+Puma Quispe Mishell Adela;61158679;Enfermeria;Pabellon I;23/09/2025;21:00;lic. Jose
+MAMANI PILCO NEISSMY ENMENY;60224299;Psicología;Pabellon J;24/09/2025;20:00;lic. Pedro
+QUISPE YUCRA MAELY YESSENIA;60286414;Psicología;Pabellon A;25/09/2025;14:00;lic. Jose
+CHURA CCACA ZAYURI YAMILE;61046991;Enfermeria;Pabellon C;26/09/2025;15:00;lic. Pedro
+VILCA LARICO CAMILA JAZMIN;71146558;Educación inicial y Puericultura;Pabellon A;27/09/2025;16:00;lic. Jose
+Aro Coyla Edelmiro Josue;60538297;Psicología;Pabellon D;28/09/2025;17:00;lic. Pedro
+COAQUIRA NEYRA MILAGROS;61254689;Enfermeria;Pabellon A;29/09/2025;18:00;lic. Jose
+Mamani Arapa Lizbeth;61093283;Ingeniería ambiental;Pabellon D;30/09/2025;19:00;lic. Pedro
+PAYEHUANCA OSNAYO JUDITH MIREYDY;61255527;Ingeniería Civil;Pabellon G;12/09/2025;20:00;lic. Jose
+Mayta Vargas Yosep;60554039;Enfermeria;Pabellon H;13/09/2025;21:00;lic. Pedro
+CUTIPA BUSTINZA ANA MARIA;60758785;Psicología;Pabellon I;14/09/2025;20:00;lic. Jose
+BELTRAN APAZA WILLIAMS EDUARDO;61001012;Educación Física, recreación y deportes;Pabellon J;15/09/2025;14:00;lic. Pedro
+RAMOS ARAPA MARILYN DANITZA;76587042;Ingeniería ambiental;Pabellon A;16/09/2025;15:00;lic. Jose
+HUISA QUISPE YOSEP LENIN;60353828;Enfermeria;Pabellon C;17/09/2025;16:00;lic. Pedro
+HALLASI MANCHA MELANY WENDY;61320585;Arquitectura y Urbanismo;Pabellon B;18/09/2025;17:00;lic. Jose
+CCORIMANYA TUPA LETSY;75758885;Educación Primaria y Pedagogía Terapeútica;Pabellon A;19/09/2025;18:00;lic. Pedro
+ZELA FRISANCHO GENYFER KEY;61001153;Enfermeria;Pabellon D;20/09/2025;19:00;lic. Jose
+PACCO COTACALLAPA MARI LEIDY;60286951;Enfermeria;Pabellon G;21/09/2025;20:00;lic. Pedro
+LAURA QUISPE GRACE EMERY;71045940;Enfermeria;Pabellon H;22/09/2025;21:00;lic. Jose
+PARICAHUA OJEDA YORD BRAYAN;75115296;Enfermeria;Pabellon I;23/09/2025;20:00;lic. Pedro
+MARIN MAMANI THALIA LUCERO;72308603;Psicología;Pabellon J;24/09/2025;14:00;lic. Jose
+AYAMAMANI URDAY ADRIANA REYNA;76585310;Enfermeria;Pabellon A;25/09/2025;15:00;lic. Pedro
+CONDORI CALLA RUTH NELIDA;60067154;Enfermeria;Pabellon C;26/09/2025;16:00;lic. Jose
+QUISPE PARI KELY ROXY;60178366;Psicología;Pabellon B;27/09/2025;17:00;lic. Pedro
+Cañazaca Choque Katerine Nadine;74179330;Psicología;Pabellon A;28/09/2025;18:00;lic. Jose
+MAMANI BRADO DEYSSI JEMINA;60354367;Psicología;Pabellon D;29/09/2025;14:00;lic. Pedro
+Humpiri Mamani Yaquelin Milagros;60224707;Psicología;Pabellon A;30/09/2025;15:00;lic. Jose
+Quispe Villazante Exon omar;60248317;Psicología;Pabellon D;12/09/2025;16:00;lic. Pedro
+RAMIREZ LUQUE ROY GUINNER;60204089;Enfermeria;Pabellon G;13/09/2025;17:00;lic. Jose
+CALCINA SANCA ELIZABET;60589390;Enfermeria;Pabellon H;14/09/2025;18:00;lic. Pedro
+VELEZ PARICAHUA SWEN ERICSSON;61254864;Enfermeria;Pabellon I;15/09/2025;19:00;lic. Jose
+PACORI YANA LUZ DELIA;77534355;Enfermeria;Pabellon J;16/09/2025;20:00;lic. Pedro
+MONTENEGRO ZAPANA DIANA MILAGROS;61254511;Enfermeria;Pabellon A;17/09/2025;21:00;lic. Jose
+CONDORI CANAZA RONY FELICIANO;73741691;Enfermeria;Pabellon C;18/09/2025;20:00;lic. Pedro
+MAMANI VILCA EVELYN;60909598;Psicología;Pabellon B;19/09/2025;14:00;lic. Jose
+MONTES AGUIRRE GIUSEPI YASIR DEL PIERO;74642996;Enfermeria;Pabellon A;20/09/2025;15:00;lic. Pedro
+Arosquipa Quispe Crysthian Brandon;74229003;Administración;Pabellon D;21/09/2025;16:00;lic. Jose
+PALACO PARIAPAZA GREINS CAMILA;76471532;Enfermeria;Pabellon G;22/09/2025;17:00;lic. Pedro
+VILCA ZAPANA LUDY;72047802;Ingeniería Civil;Pabellon H;23/09/2025;18:00;lic. Jose
+APAZA CONDORI REINER ELIO;61000772;Enfermeria;Pabellon I;24/09/2025;19:00;lic. Pedro
+RAMOS PARI ANHELY FIORELA;60234139;Psicología;Pabellon J;25/09/2025;20:00;lic. Jose
+Quispe Rojas Fiorella;74659100;Ingeniería Civil;Pabellon A;26/09/2025;21:00;lic. Pedro
+MAMANI QUISPE MILAGROS GABY;60282318;Psicología;Pabellon C;27/09/2025;20:00;lic. Jose
+YANAPA FLORES CRISTHIAN ABEL;60523180;Psicología;Pabellon A;28/09/2025;14:00;lic. Pedro
+TORRES QUISPE YAZMIN XIMENA;61093897;Ingeniería de sistemas;Pabellon D;29/09/2025;15:00;lic. Jose
+CAYRA CHIPANA EMERY LINDA;60260799;Psicología;Pabellon G;30/09/2025;16:00;lic. Pedro
+CONDORI CHIARA CARLOS DANIEL;75237042;Psicología;Pabellon H;12/09/2025;17:00;lic. Jose
+BENDITA QUEQUEJANA JHIMMY ANTHONY;61255218;Enfermeria;Pabellon I;13/09/2025;18:00;lic. Pedro
+QUILLA SABEDRA YAACK RONAL;60069374;Enfermeria;Pabellon J;14/09/2025;19:00;lic. Jose
+CONDORI HANCCO DIANA YESENIA;73361486;Enfermeria;Pabellon A;15/09/2025;20:00;lic. Pedro
+Rodriguez Tupa Giuseppe Verdi;76980419;Enfermeria;Pabellon C;16/09/2025;21:00;lic. Jose
+SANCHEZ MAMANI LILIANA ELIZABETH;72781332;Ingeniería Civil;Pabellon B;17/09/2025;20:00;lic. Pedro
+TOQUE YANAPA ROSSY ANAYELY;60256517;Enfermeria;Pabellon A;18/09/2025;14:00;lic. Jose
+RIVERA NAVARRO KIYARA FANY;60272373;Administración;Pabellon D;19/09/2025;15:00;lic. Pedro
+QUISPE LIVISE MARYORI;71864730;Enfermeria;Pabellon G;20/09/2025;16:00;lic. Jose
+HUAMAN MAMANI LEYDI PILAR;61046940;Educación inicial y Puericultura;Pabellon H;21/09/2025;17:00;lic. Pedro
+CANAZA APAZA KAREN ANGELICA;60256521;Enfermeria;Pabellon A;22/09/2025;18:00;lic. Jose
+QUISPE APAZA ROSIO VANESA;61399896;Psicología;Pabellon D;23/09/2025;19:00;lic. Pedro
+QUISPE GRAJEDA JOHAN FABRICIO;72493704;Enfermeria;Pabellon G;24/09/2025;20:00;lic. Jose
+ITO PELINCO JUDITH NATALY;60179713;Ingeniería ambiental;Pabellon H;25/09/2025;21:00;lic. Pedro
+CHAVEZ APAZA SADITH YOSELYN;61046872;Enfermeria;Pabellon I;26/09/2025;20:00;lic. Jose
+FASABI SAUCEDO MACIELY NICOLE;60831938;Ingeniería Civil;Pabellon J;27/09/2025;14:00;lic. Pedro
+ZARATE TAPARA ROSSY ROSARIO;60303084;Psicología;Pabellon A;28/09/2025;15:00;lic. Jose
+CANO PACORI MIGUEL ANGEL;60837446;Enfermeria;Pabellon C;29/09/2025;16:00;lic. Pedro
+Viza Echama Gisela Keiko;77505335;Enfermeria;Pabellon B;30/09/2025;17:00;lic. Jose
+PACOMPIA PANCCA ALEX LIZANDRO;62101714;Psicología;Pabellon A;12/09/2025;18:00;lic. Pedro
+Quispe zapana Luz Brenda;61158632;Enfermeria;Pabellon D;13/09/2025;14:00;lic. Jose
+VARGAS MENA KAREN LIZETH;73576053;Ingeniería Civil;Pabellon G;14/09/2025;15:00;lic. Pedro
+ZUÑIGA PARI MARIANELA;61093390;Psicología;Pabellon H;15/09/2025;16:00;lic. Jose
+Garate Condori Liz Nayali;77689958;Psicología;Pabellon I;16/09/2025;17:00;lic. Pedro
+Lopez Naira Sheyla Melani;60208580;Educación Física, recreación y deportes;Pabellon J;17/09/2025;18:00;lic. Jose
+MAMANI SONCCO JHIMI MEXTRIX;60231598;Psicología;Pabellon A;18/09/2025;19:00;lic. Pedro
+Quispe Vilca Hayme Anyhely;60909040;Psicología;Pabellon C;19/09/2025;20:00;lic. Jose
+Cahua Mamani Alain Amilcar;60335223;Ingeniería Civil;Pabellon B;20/09/2025;21:00;lic. Pedro
+Jauja Coaquira Diana Milagros;60272365;Ingeniería de sistemas;Pabellon A;21/09/2025;20:00;lic. Jose
+Mamani Estofanero Helbert Michael;70666216;Educación Física, recreación y deportes;Pabellon D;22/09/2025;14:00;lic. Pedro
+CCALLI COILA EMMA DANILA;76861245;Educación Primaria y Pedagogía Terapeútica;Pabellon G;23/09/2025;15:00;lic. Jose
+Mamani Ochochoque Luz Mery;76846270;Educación inicial y Puericultura;Pabellon H;24/09/2025;16:00;lic. Pedro
+Condori Mamani Carlos daniel;77129831;Educación inicial y Puericultura;Pabellon I;25/09/2025;17:00;lic. Jose
+VARGAS MAMANI ALISSON NIKOL;60230787;Contabilidad , Gestión tributaria y Aduanera;Pabellon J;26/09/2025;18:00;lic. Pedro
+BLANCO OVANO LINO MARCHELLO;60556025;Psicología;Pabellon A;27/09/2025;19:00;lic. Jose
+Vilcanqui Chura Bethzy Vianey;60261969;Educación Física, recreación y deportes;Pabellon C;28/09/2025;20:00;lic. Pedro
+TURPO NUÑEZ JEISSON JEAMPIER;61254695;Educación Primaria y Pedagogía Terapeútica;Pabellon B;29/09/2025;21:00;lic. Jose
+COLCA GUILLEN LOURDES ANDREA;61046943;Educación Física, recreación y deportes;Pabellon A;30/09/2025;20:00;lic. Pedro
+RAMOS QUISPE ANAHY SHIOMARA;60908822;Contabilidad , Gestión tributaria y Aduanera;Pabellon D;12/09/2025;14:00;lic. Jose
+CALATAYUD PONCE NAYELY MILAGROS;60220547;Educación Primaria y Pedagogía Terapeútica;Pabellon G;13/09/2025;15:00;lic. Pedro
+CHOQUE CHURATA RONALD ALEXIS;73697312;Educación inicial y Puericultura;Pabellon H;14/09/2025;16:00;lic. Jose
+TICONA PINEDA MADELEY;60353805;Educación inicial y Puericultura;Pabellon I;15/09/2025;17:00;lic. Pedro
+Arapa Quispe Judith Adelaida;61254596;Educación Primaria y Pedagogía Terapeútica;Pabellon J;16/09/2025;18:00;lic. Jose
+POMA HANCCO RODRIGO JAVIER;60837200;Administración;Pabellon A;17/09/2025;19:00;lic. Pedro
+BACILIO GIL THATIANA MILAGROS;60925773;Educación Primaria y Pedagogía Terapeútica;Pabellon C;18/09/2025;20:00;lic. Jose
+QUISPE CHAMBI YANNEL GLORIA;61320729;Administración;Pabellon B;19/09/2025;14:00;lic. Pedro
+MENDOZA MAMANI NANCY GISELA;61254952;Administración;Pabellon A;20/09/2025;15:00;lic. Jose
+RAMOS SANTAMARIA ALEX YEISON;73713209;Educación inicial y Puericultura;Pabellon D;21/09/2025;16:00;lic. Pedro
+CHINO SUCAPUCA BRAYAN SHANDEL;61158612;Educación Primaria y Pedagogía Terapeútica;Pabellon G;22/09/2025;17:00;lic. Jose
+CHANCASANAMPA TRINIDAD ANGIE JHANDIRA;61278781;Contabilidad , Gestión tributaria y Aduanera;Pabellon H;23/09/2025;18:00;lic. Pedro
+APAZA TICONA DANIEL EDUARDO;71574819;Educación inicial y Puericultura;Pabellon I;24/09/2025;19:00;lic. Jose
+JAVIER TILA BRENDA DAYHANA;61000642;Administración;Pabellon A;25/09/2025;20:00;lic. Pedro
+CHAMBI CONDORI EDITH MILAGROS;60264100;Educación Primaria y Pedagogía Terapeútica;Pabellon D;26/09/2025;21:00;lic. Jose
+Coaquira Idme Álvaro Ramiro;61254697;Educación inicial y Puericultura;Pabellon G;27/09/2025;20:00;lic. Pedro
+Pari Gutiérrez Carlos Andre;61255031;Contabilidad , Gestión tributaria y Aduanera;Pabellon H;28/09/2025;14:00;lic. Jose
+APAZA MAYTA ANGIE LIZBETH;60068395;Educación inicial y Puericultura;Pabellon I;29/09/2025;15:00;lic. Pedro
+CHURA GUTIERREZ ROUSSE DANIELA;60836780;Educación Especialidad Inglés y Español;Pabellon J;30/09/2025;16:00;lic. Jose
+APAZA YUJRA ALLISON ROUSS;61255646;Educación inicial y Puericultura;Pabellon A;12/09/2025;17:00;lic. Pedro
+CAPIA CARRIZALES JHOEL EDISSON;60836711;Educación inicial y Puericultura;Pabellon C;13/09/2025;18:00;lic. Jose
+CALSIN PACOMPIA ANI LIZ;60765485;Educación inicial y Puericultura;Pabellon B;14/09/2025;14:00;lic. Pedro
+CAMA VILCA YUDITH DANITZA;60068373;Educación Especialidad Inglés y Español;Pabellon A;15/09/2025;15:00;lic. Jose
+QUISPE LARICO WENDY;60068375;Ingeniería Civil;Pabellon D;16/09/2025;16:00;lic. Pedro
+VARGAS TITO ROCIO ZULEMA;60486471;Ingeniería Civil;Pabellon G;17/09/2025;17:00;lic. Jose
+QUISPE AGUILAR KASSANDRA YAMILETH;75348577;Ingeniería Civil;Pabellon H;18/09/2025;18:00;lic. Pedro
+MACEDO YANA WILLIAN ERICK;77470869;Ingeniería Civil;Pabellon I;19/09/2025;19:00;lic. Jose
+Yucra Arela Jhilmar David;60836661;Ingeniería de sistemas;Pabellon J;20/09/2025;20:00;lic. Pedro
+Mamani Rayme Jackie Elias;77908329;Ingeniería Civil;Pabellon A;21/09/2025;21:00;lic. Jose
+Puma Gallegos Lady Isabel;60419519;Ingeniería Civil;Pabellon C;22/09/2025;20:00;lic. Pedro
+QUISPE TICONA SHEYLA INES;60606205;Ingeniería Civil;Pabellon B;23/09/2025;14:00;lic. Jose
+AHUMADA HUAYNACHO JUDITH GRETY;60267306;Ingeniería Civil;Pabellon A;24/09/2025;15:00;lic. Pedro
+Vargas Mamani Roxana soledad;60486498;Contabilidad y Gestión tributaria y Aduanera - A DISTANCIA;Pabellon D;25/09/2025;16:00;lic. Jose
+Condori Quilca Marily Zaira;71739859;Ingeniería Civil;Pabellon G;26/09/2025;17:00;lic. Pedro
+QUISPE HUARAYA ANTHONY FERNANDO;76840097;Ingeniería de sistemas;Pabellon H;27/09/2025;18:00;lic. Jose
+MACEDO ANCONEIRA NOEMI ESTHER;75490121;Ingeniería de sistemas;Pabellon I;28/09/2025;19:00;lic. Pedro
+Quispe Janampa Jhefferson Albeyro;62528083;Ingeniería ambiental;Pabellon J;29/09/2025;20:00;lic. Jose
+Vilca Delgado de la Flor Helen Mireya;71153546;Ingeniería de sistemas;Pabellon A;30/09/2025;21:00;lic. Pedro
+Pari Cahuapaza Fabiola Soleyka;60765429;Ingeniería Civil;Pabellon C;12/09/2025;20:00;lic. Jose
+Apaza Tuyo Jakelyn Rosmery;74430395;Ingeniería Civil;Pabellon A;13/09/2025;14:00;lic. Pedro
+GONZALO GALLEGOS MISHELL GERALDINE;61254825;Educación Primaria y Pedagogía Terapeútica;Pabellon D;14/09/2025;15:00;lic. Jose
+Yana Chino Jhon Franklin;60837070;Ingeniería Civil;Pabellon G;15/09/2025;16:00;lic. Pedro
+CHAYÑA PARICOTO MILAGROS LISSETH;60606195;Ingeniería de sistemas;Pabellon H;16/09/2025;17:00;lic. Jose
+CONDORI MAMANI KARINA JHONMY;75741051;Ingeniería Civil;Pabellon I;17/09/2025;18:00;lic. Pedro
+QUISPE MERCADO LALO DARWIN;60460527;Ingeniería Civil;Pabellon J;18/09/2025;19:00;lic. Jose
+SOTO HUMPIRI CAMILA JHEIMY;61320176;Ingeniería Civil;Pabellon A;19/09/2025;20:00;lic. Pedro
+RIVEROS ROSELLO DANNAF THALYA;61047043;Educación inicial y Puericultura;Pabellon C;20/09/2025;21:00;lic. Jose
+Huaman Hancco Yasuri Yandire;61255294;Ingeniería Civil;Pabellon B;21/09/2025;20:00;lic. Pedro
+Castillo Huaraccallo Efrain Jefry;60067826;Ingeniería Civil;Pabellon A;22/09/2025;14:00;lic. Jose
+Huarsocca Huarsocca Obed Michael;70900618;Ingeniería ambiental;Pabellon D;23/09/2025;15:00;lic. Pedro
+CCARITA CCARITA FRISAYDA;60523168;Arquitectura y Urbanismo;Pabellon G;24/09/2025;16:00;lic. Jose
+APAZA MAMANI YACK ANTONI;60643756;Administración;Pabellon H;25/09/2025;17:00;lic. Pedro
+MACHACA APAZA GUADALUPE LIZBHET;61094230;Ingeniería de sistemas;Pabellon I;26/09/2025;18:00;lic. Jose
+Vilca Huayta Esmeralda;60485638;Ingeniería de sistemas;Pabellon J;27/09/2025;14:00;lic. Pedro
+Ccarita Apaza Lady Judith;75238424;Enfermeria;Pabellon A;28/09/2025;15:00;lic. Jose
+Riega Batallanos Arellys Muriel;61093268;Arquitectura y Urbanismo;Pabellon C;29/09/2025;16:00;lic. Pedro
+ALBARRACIN CAZASOLA ANYELY;61093543;Ingeniería Civil;Pabellon A;30/09/2025;17:00;lic. Jose
+Condori Coaquira Ada Araceli;74175215;Psicología;Pabellon D;12/09/2025;18:00;lic. Pedro
+Choque Chura Liz Yaneth;60305320;Enfermeria;Pabellon G;13/09/2025;19:00;lic. Jose
+QUISPE GONZALES RICHARD ARNOLD;60909706;Nutrición;Pabellon H;14/09/2025;20:00;lic. Pedro
+PACCO HUANCA EVELYN;75532805;Ingeniería Civil;Pabellon I;15/09/2025;21:00;lic. Jose
+ALVAREZ MOYA WILTON ALEX;62121660;Administración;Pabellon J;16/09/2025;20:00;lic. Pedro
+CHAMBI CHOQUE NELSIGREYSS ELENA;60348609;Ingeniería Civil;Pabellon A;17/09/2025;14:00;lic. Jose
+QUISPE MAYHUA ROY GERMAN;60501237;Ingeniería ambiental;Pabellon C;18/09/2025;15:00;lic. Pedro
+MAMANI DE LA CRUZ KENYI DAVID;60213567;Psicología;Pabellon B;19/09/2025;16:00;lic. Jose
+QUISPE LOPEZ YHAMILEY YULISSA;76922350;Psicología;Pabellon A;20/09/2025;17:00;lic. Pedro
+CCALLO HINOJOSA JACK ANDY;60255869;Educación Primaria y Pedagogía Terapeútica;Pabellon D;21/09/2025;18:00;lic. Jose
+APAZA QUISPE ANALY DEYCI;61617800;Nutrición;Pabellon G;22/09/2025;19:00;lic. Pedro
+RODRIGO WAYRA HAINM;76838502;Arquitectura y Urbanismo;Pabellon H;23/09/2025;20:00;lic. Jose
+Leque Condori Edgar Jesus;73258661;Psicología;Pabellon I;24/09/2025;21:00;lic. Pedro
+CONDORI BEJAR ANYELY YASMIN;81249760;Psicología;Pabellon J;25/09/2025;20:00;lic. Jose
+Cuenta Huahuacondori Luis Fernando;60557533;Ingeniería Civil;Pabellon A;26/09/2025;14:00;lic. Pedro
+Mamani Apaza Edwin Dilan;60470838;Contabilidad , Gestión tributaria y Aduanera;Pabellon C;27/09/2025;15:00;lic. Jose
+TAPARA VELARDE YOSHELIN MARICIELO;61158914;Arquitectura y Urbanismo;Pabellon B;28/09/2025;16:00;lic. Pedro
+Vilca Vilca Lilian Mayra;62895122;Enfermeria;Pabellon A;29/09/2025;14:00;lic. Jose
+Mamani Mayta Nayeli;60567768;Educación Especialidad Inglés y Español;Pabellon D;30/09/2025;15:00;lic. Pedro
+CALLA HUAMAN KAROL NIKOL;61094002;Enfermeria;Pabellon G;12/09/2025;16:00;lic. Jose
+HUALLPA CHECMAPUCO NELIDA EUGENIA;77463831;Ingeniería Civil;Pabellon H;13/09/2025;17:00;lic. Pedro
+CHUQUIMAMANI UMIÑA JOSE FERNANDO;76723634;Psicología;Pabellon I;14/09/2025;18:00;lic. Jose
+Larico Quispe Jersson Hugo;75022620;Psicología;Pabellon J;15/09/2025;19:00;lic. Pedro
+ALARCON RODRIGUEZ LUIS ANDRES;60908837;Enfermeria;Pabellon A;16/09/2025;20:00;lic. Jose
+LIPA CONDORI EDSON;60491200;#N/A;Pabellon C;17/09/2025;21:00;lic. Pedro
+PAMPA CALCINA JHON LENIN;78041256;Educación Primaria y Pedagogía Terapeútica;Pabellon A;18/09/2025;20:00;lic. Jose
+CONDORI CARRIZALES CRISTHIAN;73887106;Ingeniería Civil;Pabellon D;19/09/2025;14:00;lic. Pedro
+MAMANI BELLIDO ERIK YANDEL;61001163;Arquitectura y Urbanismo;Pabellon G;20/09/2025;15:00;lic. Jose
+CARRIZALES CCARI RAMIRO ARON;60069419;Psicología;Pabellon A;21/09/2025;16:00;lic. Pedro
+MORALES PARI AKEMI ABIGAIL;60837322;Enfermeria;Pabellon D;22/09/2025;17:00;lic. Jose
+QUISPE COSI EMELY MISHELL;61320456;Ingeniería Civil;Pabellon G;23/09/2025;18:00;lic. Pedro
+YANARICO QUISPE DIEGO ALEXANDER;60837126;Enfermeria;Pabellon H;24/09/2025;19:00;lic. Jose
+QUISPE POMA ULSEN DELVIS;60394350;Enfermeria;Pabellon I;25/09/2025;20:00;lic. Pedro
+CACERES HUANCCO EMERSSON ALESSANDRO;60909665;Enfermeria;Pabellon J;26/09/2025;21:00;lic. Jose
+VELARDE MANRIQUE OSCAR KENNETH;73148140;Educación Especialidad Inglés y Español;Pabellon A;27/09/2025;20:00;lic. Pedro
+LOPE MACEDO JEFERSON ALEXANDER;60504815;Psicología;Pabellon C;28/09/2025;14:00;lic. Jose
+POMA QUISPE JHON AMILCAR;60491215;Psicología;Pabellon B;29/09/2025;15:00;lic. Pedro
+QUIÑONES SALAZAR JOSE MANUEL;72538150;Enfermeria;Pabellon A;30/09/2025;16:00;lic. Jose
+CACERES CATACORA IVAN PIERO;60909700;Educación inicial y Puericultura;Pabellon D;12/09/2025;17:00;lic. Pedro
+CONDORI PARIZACA CARLOS DANIEL;71494687;Educación inicial y Puericultura;Pabellon G;13/09/2025;18:00;lic. Jose
+Canaza Quispe Eber Jesus;60234137;Educación inicial y Puericultura;Pabellon H;14/09/2025;19:00;lic. Pedro
+Coaquira Ticona Lenin Euder;60556031;Educación inicial y Puericultura;Pabellon I;15/09/2025;20:00;lic. Jose
+Surco Pampa Rossi Carolyn;60296206;Educación inicial y Puericultura;Pabellon J;16/09/2025;21:00;lic. Pedro
+Melo Silva Marlon Hamilcar;76471843;Educación inicial y Puericultura;Pabellon A;17/09/2025;20:00;lic. Jose
+Humpiri Humalla Hadad Henry;73539052;Educación inicial y Puericultura;Pabellon A;18/09/2025;14:00;lic. Pedro
+Callo Sacaca Vilma;72689868;Educación inicial y Puericultura;Pabellon D;19/09/2025;15:00;lic. Jose
+Condori Cari Dania rosa;75435257;Educación inicial y Puericultura;Pabellon G;20/09/2025;14:00;lic. Pedro
+TORRES ENRIQUEZ JHIRAN JAMILETH;60837457;Educación inicial y Puericultura;Pabellon H;21/09/2025;15:00;lic. Jose
+MAMANI COACALLA ROBERTH EDILSON;60240389;Educación inicial y Puericultura;Pabellon I;22/09/2025;16:00;lic. Pedro
+TICONA CONDORI DENILSON JOSEPH;61000432;Educación inicial y Puericultura;Pabellon J;23/09/2025;17:00;lic. Jose
+QUISPE ARAPA JADE METHALY;61000462;Educación inicial y Puericultura;Pabellon A;24/09/2025;18:00;lic. Pedro
+CALLA QUISPE FERNANDO JEREMY;63174405;Educación inicial y Puericultura;Pabellon C;25/09/2025;19:00;lic. Jose
+Apaza Alferez Anderson;61000734;Educación inicial y Puericultura;Pabellon B;26/09/2025;20:00;lic. Pedro
+TURPO NUÑEZ JEISSON JEAMPIER;61254695;Educación inicial y Puericultura;Pabellon A;27/09/2025;21:00;lic. Jose
+POMA HANCCO RODRIGO JAVIER;60837200;Educación inicial y Puericultura;Pabellon D;28/09/2025;20:00;lic. Pedro
