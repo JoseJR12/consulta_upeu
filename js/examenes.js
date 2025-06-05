@@ -3,14 +3,30 @@ function buscarExamen() {
   const resultadoDiv = document.getElementById('resultado');
   resultadoDiv.innerHTML = '';
 
+  // Validar el formato del DNI (opcional pero recomendable)
+  if (!dni || dni.length !== 8 || isNaN(dni)) {
+    resultadoDiv.innerHTML = `
+      <div class="bg-yellow-700 text-white p-4 rounded-xl shadow-md text-center">
+        <p class="font-semibold">Por favor, ingrese un DNI válido de 8 dígitos.</p>
+      </div>
+    `;
+    return;
+  }
+
   Papa.parse('data/examenes.csv', {
     download: true,
     header: true,
+    delimiter: ';', // Asegúrate que sea el correcto según tu CSV
+    skipEmptyLines: true,
     complete: function(results) {
       const data = results.data;
-      const match = data.find(row => row.dni === dni);
 
-      if (match) {
+      // Normalizar y filtrar coincidencias exactas por DNI
+      const coincidencias = data.filter(row => (row.dni || '').trim() === dni);
+
+      if (coincidencias.length === 1) {
+        const match = coincidencias[0];
+
         resultadoDiv.innerHTML = `
           <div class="bg-gray-800 text-white rounded-2xl shadow-lg p-6 space-y-2 w-full max-w-md mx-auto">
             <p><span class="font-semibold text-indigo-400">Nombre:</span> ${match.nombre}</p>
@@ -27,6 +43,13 @@ function buscarExamen() {
             </div>
           </div>
         `;
+      } else if (coincidencias.length > 1) {
+        resultadoDiv.innerHTML = `
+          <div class="bg-red-700 text-white p-4 rounded-xl shadow-md text-center">
+            <p class="font-semibold">Error: se encontraron múltiples registros con el mismo DNI (${dni}). Contacte a soporte.</p>
+          </div>
+        `;
+        console.warn('DNI duplicado detectado:', dni, coincidencias);
       } else {
         resultadoDiv.innerHTML = `
           <div class="bg-red-800 text-white p-4 rounded-xl shadow-md text-center">
