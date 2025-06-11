@@ -32,16 +32,18 @@
     <h1 class="text-4xl md:text-5xl font-bold mb-12 tracking-tight">Consultas Disponibles de Admisión</h1>
 
     <!-- Botones -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+    <div class="flex flex-wrap justify-center gap-6 w-full">
 
-      <!-- Fecha de Examen -->
+
+      <!-- Fecha de Examen 
       <a href="examenes.html" class="bg-gray-800 hover:bg-gray-700 hover:scale-105 transform transition-all duration-300 p-8 rounded-2xl shadow-lg flex flex-col items-center gap-4">
-        <!-- Icono: Calendario -->
+         Icono: Calendario 
         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
         </svg>
         <h2 class="text-xl font-semibold">Fecha de Examen</h2>
       </a>
+      -->
 
       <!-- Consulta tu Entrevista -->
       <a href="citas.html" class="bg-gray-800 hover:bg-gray-700 hover:scale-105 transform transition-all duration-300 p-8 rounded-2xl shadow-lg flex flex-col items-center gap-4">
@@ -54,53 +56,74 @@
 
     </div>
 
-    <!-- Botón para abrir modal de imagen -->
+    <!-- Botón para abrir modal de imagen 
     <button
       class="mt-10 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg transition"
       onclick="document.getElementById('modalImagen').classList.remove('hidden')">
       Ver Comunicado
     </button>
+    -->
 
   </div>
 
-  <!-- Modal alerta centrado -->
-  <div id="alerta" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-    <div class="bg-yellow-100 text-yellow-800 rounded-xl p-6 max-w-md w-full relative shadow-lg">
-      <!-- Botón de cierre -->
-      <button
-        aria-label="Cerrar aviso"
-        class="absolute top-3 right-3 text-yellow-800 hover:text-yellow-900 font-bold text-2xl leading-none"
-        onclick="document.getElementById('alerta').style.display='none'">
-        &times;
-      </button>
-      <!-- Icono y texto -->
-      <div class="flex items-start gap-4">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0 mt-1 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m0-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z" />
-        </svg>
-        <div class="text-base">
-          <strong class="block font-semibold mb-1">¡Aviso Importante!</strong>
-          La fecha de examen del grupo 3 ha sido reprogramada para el <span class="font-semibold">10 de junio</span>. Consulta tu sección para verificar el cambio.
-        </div>
+<!-- Modal alerta centrado -->
+<div id="alerta" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+  <div class="bg-gradient-to-br from-yellow-200 to-yellow-50 text-yellow-900 rounded-2xl p-8 max-w-lg w-full relative shadow-2xl border-2 border-yellow-400">
+
+    <!-- Botón de cierre -->
+    <button
+      aria-label="Cerrar aviso"
+      class="absolute top-3 right-3 text-yellow-900 hover:text-red-600 font-bold text-3xl leading-none transition-transform transform hover:scale-125"
+      onclick="document.getElementById('alerta').style.display='none'">
+      &times;
+    </button>
+
+    <!-- Icono y contenido -->
+    <div class="flex flex-col items-center text-center space-y-4">
+
+      <!-- Icono grande -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m0-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z" />
+      </svg>
+
+      <!-- Título -->
+      <h2 class="text-2xl font-bold text-yellow-800">📢 Aviso Importante</h2>
+
+      <!-- Mensaje -->
+      <p class="text-lg leading-relaxed">
+        La <span class="font-bold text-yellow-900 underline">fecha del Examen General</span> está programada para el <span class="text-red-600 font-bold text-xl">20 de Julio</span>.
+      </p>
+
+      <!-- Contactos -->
+      <div class="bg-yellow-300 p-4 rounded-lg shadow-inner">
+        <p class="font-semibold mb-2">Consulta o resuelve tus dudas a los siguientes números:</p>
+        <ul class="text-center text-yellow-900 font-medium space-y-1">
+          <li>📞 991-126-082</li>
+          <li>📞 951-301-916</li>
+        </ul>
       </div>
+
+      <!-- Nota -->
+      <p class="text-sm text-gray-700 italic">Recuerda estar siempre pendiente de los comunicados oficiales.</p>
     </div>
   </div>
+</div>
 
-  <!-- Modal para visualizar imagen -->
+  <!-- Modal para visualizar imagen
   <div id="modalImagen" class="fixed inset-0 bg-gradient-to-br from-black via-black/80 to-black/90 flex items-center justify-center z-50 hidden animate-fadeIn scale-95 transition-transform duration-300 ease-out">
     <div class="relative max-w-3xl w-full p-6 bg-gray-900 bg-opacity-90 rounded-3xl shadow-2xl transform transition-transform duration-300 hover:scale-105">
-      <!-- Botón de cierre -->
+      
       <button
         aria-label="Cerrar imagen"
         class="absolute top-3 right-3 text-white hover:text-red-400 font-extrabold text-4xl leading-none z-50 transition-colors duration-200"
         onclick="document.getElementById('modalImagen').classList.add('hidden')">
         &times;
       </button>
-      <!-- Imagen -->
+      
       <img src="img/aviso1.png" alt="Imagen a visualizar" class="rounded-2xl shadow-xl max-h-[80vh] w-auto mx-auto" />
     </div>
   </div>
-
+ -->
   <!-- Script para controlar el aviso solo en recarga -->
   <script>
     const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
