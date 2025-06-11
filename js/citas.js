@@ -30,7 +30,7 @@ function buscarCita() {
 
         resultadoDiv.innerHTML = `
           <div class="bg-gray-800 text-white rounded-2xl shadow-lg p-6 space-y-4 w-full max-w-md mx-auto">
-            <p class="text-lg font-semibold text-center mb-4">🎓 Buenas noches estimad@ ${match.nombre}, se programó su entrevista para:</p>
+            <p class="text-lg font-semibold text-center mb-4">🎓 Estimad@ ${match.nombre}, se programó su entrevista para:</p>
             
             <div class="space-y-2">
               <p><span class="font-semibold text-indigo-400">Día:</span> ${match.fecha}</p>
