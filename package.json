@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./output.css --minify"
-  },
+ "scripts": {
+  "build": "npx tailwindcss -i ./input.css -o ./output.css --minify"
+}
+,
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.4",
