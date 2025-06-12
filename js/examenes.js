@@ -13,7 +13,8 @@ function buscarExamen() {
     return;
   }
 
-  Papa.parse('data/examenes.csv', {
+  Papa.parse('../data/examenes.csv?' + new Date().getTime(), {
+
     download: true,
     header: true,
     delimiter: ';', // Asegúrate que sea el correcto según tu CSV
@@ -39,7 +40,7 @@ function buscarExamen() {
 
             <p class="text-center text-lg font-bold text-red-400 mt-6">Imagen de Referencia</p>
             <div class="flex justify-center mt-4">
-              <img src="img/referencia1.jpg" alt="Referencia" class="rounded-xl ring-2 ring-indigo-400 max-w-full h-auto">
+              <img src="../img/referencia1.jpg" alt="Referencia" class="rounded-xl ring-2 ring-indigo-400 max-w-full h-auto">
             </div>
           </div>
         `;

@@ -14,7 +14,7 @@ function buscarCita() {
   }
 
   // Parseo del CSV con anti-cache
-  Papa.parse('data/citas.csv?' + new Date().getTime(), {
+  Papa.parse('../data/citas.csv?' + new Date().getTime(), {
     download: true,
     header: true,
     delimiter: ';',
