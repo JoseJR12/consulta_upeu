@@ -18,7 +18,7 @@ function buscarCita() {
     header: true,
     delimiter: ';',
     skipEmptyLines: true,
-    complete: function(results) {
+    complete: function (results) {
       const data = results.data;
       const coincidencias = data.filter(row => (row.dni || '').trim() === dniInput);
 
@@ -29,6 +29,7 @@ function buscarCita() {
         let recomendaciones = '';
         let recordatorio = '';
         let infoAdicional = '';
+        let imagenReferencia = '';
 
         if (esVirtual) {
           recomendaciones = `
@@ -89,6 +90,16 @@ function buscarCita() {
               </ul>
             </div>
           `;
+
+          // Imagen con zoom y arrastre
+          imagenReferencia = `
+            <div class="mt-6 text-center">
+              <p class="text-indigo-400 font-semibold mb-2">Imagen de referencia:</p>
+              <div id="zoomResultado" class="zoom-container inline-block overflow-hidden cursor-grab border border-indigo-500 rounded-xl p-2">
+                <img id="imgResultado" src="../img/mapa.png" alt="Imagen de referencia" class="mx-auto rounded-lg shadow-lg max-h-80 object-contain select-none">
+              </div>
+            </div>
+          `;
         }
 
         resultadoDiv.innerHTML = `
@@ -105,8 +116,55 @@ function buscarCita() {
             ${infoAdicional}
             ${recomendaciones}
             ${recordatorio}
+            ${imagenReferencia}
           </div>
         `;
+
+        // Activar zoom y arrastre en la imagen del resultado
+        const zoomResultado = document.getElementById('zoomResultado');
+        const imgResultado = document.getElementById('imgResultado');
+
+        let scaleRes = 1;
+        let isDraggingRes = false;
+        let startXRes = 0, startYRes = 0;
+        let currentXRes = 0, currentYRes = 0;
+
+        imgResultado.addEventListener('mousedown', (e) => {
+          isDraggingRes = true;
+          startXRes = e.clientX - currentXRes;
+          startYRes = e.clientY - currentYRes;
+          zoomResultado.style.cursor = 'grabbing';
+        });
+
+        zoomResultado.addEventListener('mousemove', (e) => {
+          if (isDraggingRes) {
+            currentXRes = e.clientX - startXRes;
+            currentYRes = e.clientY - startYRes;
+            imgResultado.style.transform = `translate(${currentXRes}px, ${currentYRes}px) scale(${scaleRes})`;
+          }
+        });
+
+        window.addEventListener('mouseup', () => {
+          isDraggingRes = false;
+          zoomResultado.style.cursor = 'grab';
+        });
+
+        zoomResultado.addEventListener('mouseleave', () => {
+          isDraggingRes = false;
+          zoomResultado.style.cursor = 'grab';
+        });
+
+        zoomResultado.addEventListener('wheel', (e) => {
+          e.preventDefault();
+          const zoomFactor = 0.1;
+          if (e.deltaY < 0) {
+            scaleRes += zoomFactor;
+          } else {
+            scaleRes = Math.max(1, scaleRes - zoomFactor);
+          }
+          imgResultado.style.transform = `translate(${currentXRes}px, ${currentYRes}px) scale(${scaleRes})`;
+        });
+
       } else if (coincidencias.length > 1) {
         resultadoDiv.innerHTML = `
           <div class="bg-red-700 text-white p-4 rounded-xl shadow-md text-center">

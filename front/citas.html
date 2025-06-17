@@ -4,31 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fecha de Entrevista</title>
+  <title>Consulta de Cita Psicológica</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <script src="../libs/papaparse.min.js"></script>
   <script src="../js/citas.js" defer></script>
-  <script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
 
   <style>
     body {
       font-family: 'Inter', sans-serif;
-    }
-
-    .modal-content {
-      max-width: 95%;
-      max-height: 95vh;
-      overflow: hidden;
-    }
-
-    .zoom-container {
-      max-height: 80vh;
-      max-width: 100%;
-      overflow: auto;
-      border-radius: 0.5rem;
-      background-color: #1f2937;
-      padding: 0.5rem;
     }
 
     .zoom-container img {
@@ -38,35 +22,119 @@
       cursor: grab;
       user-select: none;
     }
-
-    @media (max-width: 640px) {
-      .zoom-container {
-        max-height: 70vh;
-      }
-    }
   </style>
 </head>
 
 <body class="bg-gray-900 text-white min-h-screen flex items-center justify-center px-4">
   <div class="bg-gray-800/60 backdrop-blur-sm shadow-xl rounded-2xl p-8 w-full max-w-lg text-center">
 
-    <div class="mb-4 flex justify-between">
-      <a href="index.html" class="inline-flex items-center text-indigo-400 hover:text-indigo-300 font-semibold transition duration-300">
+    <!-- Botón Regresar y Ver Mapa alineados -->
+    <div class="mb-4 flex justify-between items-center">
+      <a href="/index.html" class="inline-flex items-center text-indigo-400 hover:text-indigo-300 font-semibold transition duration-300">
         <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
         </svg>
         Regresar
       </a>
-     
-      <a href="#" id="openModal" class="inline-flex items-center text-indigo-400 hover:text-indigo-300 font-semibold transition transform hover:scale-110">
-        
-        <svg class="h-6 w-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A2 2 0 013 15.382V5.618a2 2 0 011.553-1.947L9 1m0 0l6 3m-6-3v19m6-16l5.447 2.724A2 2 0 0121 8.618v9.764a2 2 0 01-1.553 1.947L15 23m0 0V4" />
-        </svg>
-        Ver Croquis
-      </a>
 
-    </div>
+      <!-- Botón Ver Mapa Mejorado -->
+<button
+  class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-purple-500 hover:to-indigo-500 rounded-xl text-white font-semibold transition transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-purple-400 animate-pulse"
+  onclick="document.getElementById('modalImagen').classList.remove('hidden')">
+  <!-- Ícono de Mapa Detallado -->
+  <svg class="h-6 w-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round"
+      d="M9 20l-5.447-2.724A2 2 0 013 15.382V5a2 2 0 012-2h14a2 2 0 012 2v10.382a2 2 0 01-0.553 1.894L15 20l-3-1.5L9 20z" />
+    <path stroke-linecap="round" stroke-linejoin="round"
+      d="M16 8a4 4 0 11-8 0 4 4 0 018 0z" />
+  </svg>
+  Ver Mapa
+</button>
+</div>
+
+<!-- Modal para visualizar imagen con zoom y descarga -->
+<div id="modalImagen" class="fixed inset-0 bg-gradient-to-br from-black via-black/80 to-black/90 flex items-center justify-center z-50 hidden animate-fadeIn scale-95 transition-transform duration-300 ease-out">
+  <div class="relative max-w-4xl w-full p-6 bg-gray-900 bg-opacity-90 rounded-3xl shadow-2xl transform transition-transform duration-300 hover:scale-105">
+
+    <!-- Botón cerrar modal -->
+    <button
+      aria-label="Cerrar imagen"
+      class="absolute top-3 right-3 text-white hover:text-red-400 font-extrabold text-4xl leading-none z-50 transition-colors duration-200"
+      onclick="document.getElementById('modalImagen').classList.add('hidden')">
+      &times;
+    </button>
+
+    <!-- Botón de descarga -->
+    <a href="../img/mapa.png" download="Mapa de referencia"
+      class="absolute top-3 left-3 bg-green-500 hover:bg-green-600 text-white p-2 rounded-full transition shadow-lg"
+      title="Descargar Mapa">
+      <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+      </svg>
+    </a>
+
+    <!-- Imagen con scroll y zoom -->
+    <div id="zoomContainer" class="zoom-container overflow-hidden cursor-grab">
+  <img id="mapaImagen" src="../img/mapa.png" alt="Mapa de referencia" class="rounded-2xl shadow-xl max-h-[80vh] w-auto mx-auto select-none" />
+</div>
+
+  </div>
+</div>
+
+
+
+<script>
+  const zoomContainer = document.getElementById('zoomContainer');
+  const mapaImagen = document.getElementById('mapaImagen');
+
+  let scale = 1;
+  let isDragging = false;
+  let startX = 0, startY = 0;
+  let currentX = 0, currentY = 0;
+
+  // Habilitar arrastre sobre la imagen
+  mapaImagen.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.clientX - currentX;
+    startY = e.clientY - currentY;
+    zoomContainer.style.cursor = 'grabbing';
+  });
+
+  // Permitir mover la imagen (evento sobre el contenedor)
+  zoomContainer.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+      currentX = e.clientX - startX;
+      currentY = e.clientY - startY;
+      mapaImagen.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
+    }
+  });
+
+  // Finalizar el arrastre
+  window.addEventListener('mouseup', () => {
+    isDragging = false;
+    zoomContainer.style.cursor = 'grab';
+  });
+
+  zoomContainer.addEventListener('mouseleave', () => {
+    isDragging = false;
+    zoomContainer.style.cursor = 'grab';
+  });
+
+  // Zoom con scroll
+  zoomContainer.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const zoomFactor = 0.1;
+    if (e.deltaY < 0) {
+      scale += zoomFactor;
+    } else {
+      scale = Math.max(1, scale - zoomFactor);
+    }
+    mapaImagen.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
+  });
+</script>
+
+
 
     <h1 class="text-3xl font-bold mb-6 text-indigo-400">Consulta tu Cita Psicológica</h1>
 
@@ -79,73 +147,10 @@
     </button>
 
     <div id="resultado" class="mt-6 text-left text-sm">
-      <!-- Aquí se mostrarán los resultados de la búsqueda -->
+      <!-- Aquí se mostrarán los resultados -->
     </div>
 
   </div>
-
-  <!-- Modal con Scroll y Zoom -->
-  <div id="modal"
-    class="modal fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50 overflow-y-auto p-4">
-    <div class="modal-content bg-gray-800 rounded-lg p-4 relative w-full max-w-5xl mx-auto">
-
-      <button id="closeModal"
-        class="absolute top-2 right-2 text-white font-bold text-2xl hover:text-red-400 transition">&times;</button>
-
-      <!-- Contenedor Scroll y Zoom -->
-      <div id="panzoom" class="zoom-container overflow-auto">
-        <img id="croquisImage" src="/img/referencia1.jpg" alt="Croquis" />
-      </div>
-
-      <div class="text-center mt-4">
-        <a id="downloadBtn" href="img/referencia1.jpg" download
-          class="inline-flex items-center bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg font-semibold transition transform hover:scale-105 duration-300">
-          <!-- Ícono de descarga -->
-          <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
-          </svg>
-          Descargar Imagen
-        </a>
-      </div>
-
-
-    </div>
-  </div>
-
-  <script>
-    const modal = document.getElementById('modal');
-    const openModal = document.getElementById('openModal');
-    const closeModal = document.getElementById('closeModal');
-
-    openModal.addEventListener('click', (e) => {
-      e.preventDefault();
-      modal.classList.remove('hidden');
-      document.body.style.overflow = 'hidden';
-    });
-
-    closeModal.addEventListener('click', () => {
-      modal.classList.add('hidden');
-      document.body.style.overflow = 'auto';
-    });
-
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) {
-        modal.classList.add('hidden');
-        document.body.style.overflow = 'auto';
-      }
-    });
-
-    // Activar Panzoom
-    document.addEventListener('DOMContentLoaded', () => {
-      const panzoomElement = document.getElementById('panzoom');
-      Panzoom(panzoomElement, {
-        maxScale: 5,
-        minScale: 1,
-        contain: 'outside',
-        step: 0.3
-      });
-    });
-  </script>
 
 </body>
 

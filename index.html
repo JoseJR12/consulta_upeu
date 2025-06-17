@@ -29,7 +29,8 @@
     <img src="img/logo.png" alt="Logo de la Empresa" class="w-40 md:w-48 h-auto mb-6 md:mb-10" />
 
     <!-- Título -->
-    <h1 class="text-4xl md:text-5xl font-bold mb-12 tracking-tight">Consultas Disponibles de Admisión</h1>
+   <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Consultas Disponibles de Admisión</h1>
+<h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-0 tracking-tight">SEDE JULIACA</h2>
 
     <!-- Botones -->
     <div class="flex flex-wrap justify-center gap-6 w-full">
@@ -56,13 +57,8 @@
 
     </div>
 
-    <!-- Botón para abrir modal de imagen 
-    <button
-      class="mt-10 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg transition"
-      onclick="document.getElementById('modalImagen').classList.remove('hidden')">
-      Ver Comunicado
-    </button>
-    -->
+    
+    
 
   </div>
 
@@ -109,21 +105,8 @@
   </div>
 </div>
 
-  <!-- Modal para visualizar imagen
-  <div id="modalImagen" class="fixed inset-0 bg-gradient-to-br from-black via-black/80 to-black/90 flex items-center justify-center z-50 hidden animate-fadeIn scale-95 transition-transform duration-300 ease-out">
-    <div class="relative max-w-3xl w-full p-6 bg-gray-900 bg-opacity-90 rounded-3xl shadow-2xl transform transition-transform duration-300 hover:scale-105">
-      
-      <button
-        aria-label="Cerrar imagen"
-        class="absolute top-3 right-3 text-white hover:text-red-400 font-extrabold text-4xl leading-none z-50 transition-colors duration-200"
-        onclick="document.getElementById('modalImagen').classList.add('hidden')">
-        &times;
-      </button>
-      
-      <img src="img/aviso1.png" alt="Imagen a visualizar" class="rounded-2xl shadow-xl max-h-[80vh] w-auto mx-auto" />
-    </div>
-  </div>
- -->
+
+
   <!-- Script para controlar el aviso solo en recarga -->
   <script>
     const isReload = performance.getEntriesByType("navigation")[0]?.type === "reload";
